@@ -57,10 +57,25 @@
     "x": 0,
     "y": 0
    },
-   "matchCanvasSize": true
+   "matchCanvasSize": true,
+   "matchCenter": {
+    "id": 1
+   }
   },
   {
    "id": 1,
+   "name": "viewport",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "size": {
+    "width": 1532,
+    "height": 2048
+   }
+  },
+  {
+   "id": 2,
    "name": "bg",
    "position": {
     "x": 0,
