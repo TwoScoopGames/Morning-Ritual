@@ -3,61 +3,78 @@
   {
    "name": "splat-ecs/lib/systems/match-canvas-size",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/advance-timers",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/advance-animations",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/control-player",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/apply-movement-2d",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/apply-velocity",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/apply-friction",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/follow-parent",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
+   ]
+  },
+  {
+   "name": "splat-ecs/lib/systems/match-center",
+   "scenes": [
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/box-collider",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "./systems/simulation/sample-simulation-system",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   }
  ],
@@ -65,43 +82,50 @@
   {
    "name": "splat-ecs/lib/systems/clear-screen",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/viewport-move-to-camera",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "./systems/renderer/sample-renderer-system",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/draw-image",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/draw-rectangles",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "splat-ecs/lib/systems/viewport-reset",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   },
   {
    "name": "./systems/renderer/log-frame-rate",
    "scenes": [
-    "main"
+    "main",
+    "crack-eggs"
    ]
   }
  ]

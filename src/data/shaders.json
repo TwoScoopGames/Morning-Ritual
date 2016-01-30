@@ -6,9 +6,7 @@
 				"type": "FRAGMENT_SHADER",
 				"scenes": [
 					"main",
-					"title",
-					"day-intro",
-					"ending"
+					"crack-eggs"
 				]
 			},
 			{
@@ -16,9 +14,7 @@
 				"type": "VERTEX_SHADER",
 				"scenes": [
 					"main",
-					"title",
-					"day-intro",
-					"ending"
+					"crack-eggs"
 				]
 			}
 		],
@@ -39,9 +35,7 @@
 				"type": "FRAGMENT_SHADER",
 				"scenes": [
 					"main",
-					"title",
-					"day-intro",
-					"ending"
+					"crack-eggs"
 				]
 			},
 			{
@@ -49,9 +43,7 @@
 				"type": "VERTEX_SHADER",
 				"scenes": [
 					"main",
-					"title",
-					"day-intro",
-					"ending"
+					"crack-eggs"
 				]
 			}
 		],

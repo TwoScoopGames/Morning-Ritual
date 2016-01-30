@@ -47,5 +47,28 @@
     "y": 0.97
    }
   }
+ ],
+ "crack-eggs": [
+  {
+   "id": 0,
+   "name": "camera",
+   "camera": true,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "matchCanvasSize": true
+  },
+  {
+   "id": 1,
+   "name": "bg",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "eggs-background.png"
+   }
+  }
  ]
 }
