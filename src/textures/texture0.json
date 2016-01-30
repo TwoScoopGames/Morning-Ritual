@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "egg-cracked.png",
+	"frame": {"x":0,"y":0,"w":693,"h":257},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":693,"h":257},
+	"sourceSize": {"w":693,"h":257},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "egg-dino.png",
+	"frame": {"x":693,"y":0,"w":319,"h":365},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":319,"h":365},
+	"sourceSize": {"w":319,"h":365},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "egg.png",
+	"frame": {"x":0,"y":365,"w":230,"h":283},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":283},
+	"sourceSize": {"w":230,"h":283},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture0.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b800080e9419658004b7a842bdea802c:d9281276ed4a26bf6c07a02c8ff6312d:718f59462824a60253fbf743b6c3bb4b$"
+}
+}
