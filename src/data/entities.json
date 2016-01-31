@@ -1,193 +1,193 @@
 {
- "main": [
-  {
-   "id": 0,
-   "name": "camera",
-   "camera": true,
-   "position": {
-    "x": 0,
-    "y": 0
-   },
-   "matchCanvasSize": true,
-   "matchCenter": {
-	"id": 1
-   }
-  },
-  {
-   "id": 1,
-   "name": "viewport",
-   "bg-color":"#0d2342",
-   "position": {
-	"x": 0,
-	"y": 0
-   },
-   "size": {
-	"width": 1532,
-	"height": 2048
-   }
-  },
-  {
-   "id": 7,
-   "name": "curtain",
-  	"curtain": true,
-   "position": {
-	"x": 0,
-	"y": -180
-   },
-   "size": {
-	"width": 1536,
-	"height": 1901
-   },
-   "image":{
-	   "name":"curtain"
-   },
-   "timers": {
-    "pull": {
-      "running": false,
-      "time": 0,
-      "max": 3000,
-      "script": "./scripts/pull-curtain"
+  "main": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true,
+      "matchCenter": {
+        "id": 1
+      }
+    },
+    {
+      "id": 1,
+      "name": "viewport",
+      "bg-color":"#0d2342",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1532,
+        "height": 2048
+      }
+    },
+    {
+      "id": 7,
+      "name": "curtain",
+      "curtain": true,
+      "position": {
+        "x": 0,
+        "y": -180
+      },
+      "size": {
+        "width": 1536,
+        "height": 1901
+      },
+      "image":{
+        "name":"curtain"
+      },
+      "timers": {
+        "pull": {
+          "running": false,
+          "time": 0,
+          "max": 3000,
+          "script": "./scripts/pull-curtain"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "logo",
+      "logo": true,
+      "position": {
+        "x": 150,
+        "y": 50
+      },
+      "size": {
+        "width": 1299,
+        "height": 1299
+      },
+      "image":{
+        "name":"logo"
+      }
     }
-}
-  },
-  {
-   "id": 8,
-   "name": "logo",
-  "logo": true,
-   "position": {
-	"x": 150,
-	"y": 50
-   },
-   "size": {
-	"width": 1299,
-	"height": 1299
-   },
-   "image":{
-	   "name":"logo"
-   }
-  }
- ],
- "crack-eggs": [
-  {
-   "id": 0,
-   "name": "camera",
-   "camera": true,
-   "position": {
-    "x": 0,
-    "y": 0
-   },
-   "matchCanvasSize": true,
-   "matchCenter": {
-    "id": 1
-   }
-  },
-  {
-   "id": 1,
-   "name": "viewport",
-   "position": {
-    "x": 0,
-    "y": 0
-   },
-   "size": {
-    "width": 1532,
-    "height": 2048
-   }
-  },
-  {
-   "id": 2,
-   "name": "bg",
-   "position": {
-    "x": 0,
-    "y": 0
-   },
-   "image": {
-    "name": "eggs-background.png"
-   }
-  },
-  {
-   "id": 3,
-   "name": "egg1",
-   "failure": true,
-   "position": {
-    "x": 200,
-    "y": 1300
-   },
-   "size": {
-    "width": 230,
-    "height": 283
-   },
-   "onTap": {
-     "script": "./scripts/remove-failure"
-   },
-   "image": {
-    "name": "egg.png"
-	}
-  },
-  {
-   "id": 4,
-   "name": "egg2",
-   "failure": true,
-   "position": {
-    "x": 700,
-    "y": 1100
-   },
-   "size": {
-    "width": 230,
-    "height": 283
-   },
-   "onTap": {
-     "script": "./scripts/remove-failure"
-   },
-   "image": {
-    "name": "egg.png"
-	}
-  },
-  {
-   "id": 5,
-   "name": "egg3",
-   "failure": true,
-   "position": {
-    "x": 1100,
-    "y": 1300
-   },
-   "size": {
-    "width": 230,
-    "height": 283
-   },
-   "onTap": {
-     "script": "./scripts/remove-failure"
-   },
-   "image": {
-    "name": "egg.png"
-   }
-  },
-  {
-   "id": 6,
-   "name": "game-timer",
-   "timers": {
-    "game": {
-      "running": true,
-      "time": 0,
-      "max": 3000,
-      "script": "./scripts/next-scene"
+  ],
+  "crack-eggs": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true,
+      "matchCenter": {
+        "id": 1
+      }
+    },
+    {
+      "id": 1,
+      "name": "viewport",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1532,
+        "height": 2048
+      }
+    },
+    {
+      "id": 2,
+      "name": "bg",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "image": {
+        "name": "eggs-background.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "egg1",
+      "failure": true,
+      "position": {
+        "x": 200,
+        "y": 1300
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "egg2",
+      "failure": true,
+      "position": {
+        "x": 700,
+        "y": 1100
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "egg3",
+      "failure": true,
+      "position": {
+        "x": 1100,
+        "y": 1300
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "game-timer",
+      "timers": {
+        "game": {
+          "running": true,
+          "time": 0,
+          "max": 3000,
+          "script": "./scripts/next-scene"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "timer",
+      "timer": true,
+      "position": {
+        "x": 654,
+        "y": 10
+      },
+      "size": {
+        "width": 228,
+        "height": 246
+      },
+      "image":{
+        "name":"timer"
+      }
     }
-   }
-  },
-  {
-   "id": 10,
-   "name": "timer",
-   "timer": true,
-   "position": {
-	"x": 654,
-	"y": 10
-   },
-    "size": {
- 	"width": 228,
- 	"height": 246
-	},
-	"image":{
-		"name":"timer"
-	}
-  }
- ]
+  ]
 }
