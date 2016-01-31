@@ -11,8 +11,8 @@ function randomItem(array) {
 }
 
 module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
-	var failures = game.entities.find("failure").length > 0;
-	console.log("is failure?", failures);
+	var failure = game.entities.find("failure").length > 0;
+	console.log(failure ? "failure" : "success");
 	var scene = randomItem(games);
 	console.log(scene);
 	game.switchScene(scene);
