@@ -3,6 +3,7 @@
 module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	game.entities.remove(entity, "failure");
 	game.entities.remove(entity, "onTap");
+	game.entities.remove(entity, "size");
 	var last = game.entities.find("failure").length === 0;
 
 	if (last) {

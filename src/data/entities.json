@@ -170,7 +170,7 @@
         "y": 800
       },
       "timers": {
-        "text": {
+        "intro": {
           "running": true,
           "time": 0,
           "max": 1000,
@@ -180,6 +180,12 @@
           "running": false,
           "time": 0,
           "max": 3000,
+          "script": "./scripts/crack-egg-outro"
+        },
+        "outro": {
+          "running": false,
+          "time": 0,
+          "max": 1000,
           "script": "./scripts/next-scene"
         }
       }
