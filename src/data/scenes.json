@@ -5,5 +5,7 @@
   "onExit": "./scripts/main-exit"
  },
  "crack-eggs": {
+ },
+ "feed-cat": {
  }
 }
