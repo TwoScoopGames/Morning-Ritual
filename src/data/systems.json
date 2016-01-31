@@ -137,7 +137,10 @@
     {
       "name": "./systems/renderer/fill-background-color",
       "scenes": [
-        "main"
+        "main",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat"
       ]
     },
     {

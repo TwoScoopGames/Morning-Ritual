@@ -351,6 +351,7 @@
     {
       "id": 1,
       "name": "viewport",
+      "bg-color":"#0d2342",
       "position": {
         "x": 0,
         "y": 0
