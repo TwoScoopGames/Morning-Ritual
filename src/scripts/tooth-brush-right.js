@@ -6,4 +6,5 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	delete slideX.onRight;
 	game.entities.remove(entity, "failure");
 	game.entities.get(4, "image").name = "brush-teeth-success.png";
+	game.sounds.play("brush-teeth2");
 };

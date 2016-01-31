@@ -3,7 +3,8 @@
 var games = [
 	"clean-ear",
 	"crack-eggs",
-	"feed-cat"
+	"feed-cat",
+	"brush-teeth"
 ];
 
 function randomItem(array) {
