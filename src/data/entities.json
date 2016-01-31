@@ -415,6 +415,24 @@
       "image": {
         "name": "ear.png"
       }
+    },
+    {
+      "id": 5,
+      "name": "q-tip",
+      "position": {
+        "x": 300,
+        "y": 500
+      },
+      "size": {
+        "width": 1000,
+        "height": 80
+      },
+      "image": {
+        "name": "q-tip.png",
+        "destinationY": -120,
+        "destinationWidth": 1895,
+        "destinationHeight": 317
+      }
     }
   ]
 }
