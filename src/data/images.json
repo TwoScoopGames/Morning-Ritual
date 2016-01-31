@@ -36,5 +36,6 @@
 "timer2": "images/alarm3.png",
 "timer3": "images/alarm4.png",
 "timer4": "images/alarm5.png",
-"timer5": "images/alarm6.png"
+"timer5": "images/alarm6.png",
+"timer-alarm": "images/alarm-f7.png"
 }

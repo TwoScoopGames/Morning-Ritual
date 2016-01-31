@@ -11,5 +11,18 @@
 			"sourceHeight": 409
 		}
 	}
+}],
+"egg-rocket": [{
+"filmstripFrames": 7,
+"time": 300,
+"properties": {
+	"image": {
+		"name": "alarm-f7",
+		"sourceX": 0,
+		"sourceY": 0,
+		"sourceWidth": 1701,
+		"sourceHeight": 254
+	}
+}
 }]
 }
