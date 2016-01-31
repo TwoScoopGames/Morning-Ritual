@@ -422,15 +422,15 @@
       "name": "q-tip",
       "position": {
         "x": 300,
-        "y": 500
+        "y": 900
       },
       "size": {
         "width": 1000,
         "height": 80
       },
       "slideX": {
-        "min": 0,
-        "max": 1500
+        "min": -300,
+        "max": 1200
       },
       "image": {
         "name": "q-tip.png",

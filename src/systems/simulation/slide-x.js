@@ -11,17 +11,22 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		var mx = game.input.mouse.x + cameraPosition.x;
 		var my = game.input.mouse.y + cameraPosition.y;
 		var slideX = game.entities.get(entity, "slideX");
-		if (game.input.buttonPressed("action")
-				&& mx >= position.x
+
+		var inside = mx >= position.x
 				&& mx < position.x + size.width
 				&& my >= position.y
-				&& my < position.y + size.height
-				) {
+				&& my < position.y + size.height;
+
+		if (game.input.buttonPressed("action") && inside) {
 			slideX.offsetX = position.x - mx;
-		} else if (game.input.button("action")) {
+		} else if (game.input.button("action") && slideX.offsetX !== undefined) {
 			position.x = mx + slideX.offsetX;
-			position.x = Math.min(slideX.max, position.x);
-			position.x = Math.max(slideX.min, position.x);
+			if (position.x < slideX.min) {
+				position.x = slideX.min;
+			}
+			if (position.x > slideX.max) {
+				position.x = slideX.max;
+			}
 		} else if (game.input.buttonReleased("action")) {
 			delete slideX.offsetX;
 		}
