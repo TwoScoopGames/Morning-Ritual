@@ -1,1 +1,5 @@
-{}
+{
+	"egg-crack": "./sounds/egg-crack.wav",
+	"egg-dino": "./sounds/egg-dino.wav",
+	"curtain-pull": "./sounds/curtain-pull.wav"
+}

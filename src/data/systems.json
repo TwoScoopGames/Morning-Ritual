@@ -78,10 +78,9 @@
    ]
   },
   {
-   "name": "./systems/simulation/sample-simulation-system",
+   "name": "./systems/simulation/title-screen",
    "scenes": [
-    "main",
-    "crack-eggs"
+    "main"
    ]
   }
  ],
@@ -105,6 +104,12 @@
    "scenes": [
     "main",
     "crack-eggs"
+   ]
+  },
+  {
+   "name": "./systems/renderer/fill-background-color",
+   "scenes": [
+	"main"
    ]
   },
   {
