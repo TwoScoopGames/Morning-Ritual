@@ -37,6 +37,15 @@
       ]
     },
     {
+      "name": "./systems/simulation/slide-x",
+      "scenes": [
+        "main",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
       "name": "splat-ecs/lib/systems/control-player",
       "scenes": [
         "main",

@@ -428,6 +428,10 @@
         "width": 1000,
         "height": 80
       },
+      "slideX": {
+        "min": 0,
+        "max": 1500
+      },
       "image": {
         "name": "q-tip.png",
         "destinationY": -120,
