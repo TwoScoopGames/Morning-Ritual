@@ -5,5 +5,6 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	game.entities.set(entity, "outro", true);
 	game.entities.find("failure").forEach(function(id) {
 		game.entities.get(id, "image").name = "feed-catFace4.png";
+		game.sounds.play("cat-food-3");
 	});
 };

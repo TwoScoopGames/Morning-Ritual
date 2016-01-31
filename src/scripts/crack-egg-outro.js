@@ -3,6 +3,7 @@
 module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	game.entities.get(entity, "timers").outro.running = true;
 	game.entities.set(entity, "outro", true);
+	var failures = false;
 	game.entities.find("failure").forEach(function(id) {
 		game.entities.set(id, "velocity", {
 			"x": 0,
@@ -15,5 +16,10 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 			"speed": 1,
 			"name": "egg-rocket"
 		});
+		failures = true;
 	});
+	if (failures) {
+		game.sounds.play("egg-rocket");
+		console.log("play sound");
+	}
 };
