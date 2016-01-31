@@ -1,151 +1,170 @@
 {
- "simulation": [
-  {
-   "name": "splat-ecs/lib/systems/match-canvas-size",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/advance-timers",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/advance-animations",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "./systems/simulation/on-tap",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/control-player",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-movement-2d",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-velocity",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-friction",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/follow-parent",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/match-center",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/box-collider",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "./systems/simulation/title-screen",
-   "scenes": [
-    "main"
-   ]
-  }
- ],
- "renderer": [
-  {
-   "name": "splat-ecs/lib/systems/clear-screen",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/viewport-move-to-camera",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "./systems/renderer/sample-renderer-system",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "./systems/renderer/fill-background-color",
-   "scenes": [
-	"main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-image",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-rectangles",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "./systems/renderer/draw-intro",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/viewport-reset",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-frame-rate",
-   "scenes": [
-    "main",
-    "crack-eggs"
-   ]
-  }
- ]
+  "simulation": [
+    {
+      "name": "splat-ecs/lib/systems/match-canvas-size",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/advance-timers",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/advance-animations",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "./systems/simulation/on-tap",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/control-player",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/apply-movement-2d",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/apply-velocity",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/apply-friction",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/follow-parent",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/match-center",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/box-collider",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "./systems/simulation/title-screen",
+      "scenes": [
+        "main"
+      ]
+    }
+  ],
+  "renderer": [
+    {
+      "name": "splat-ecs/lib/systems/clear-screen",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/viewport-move-to-camera",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "./systems/renderer/sample-renderer-system",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "./systems/renderer/fill-background-color",
+      "scenes": [
+        "main"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/draw-image",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/draw-rectangles",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "./systems/renderer/draw-intro",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/viewport-reset",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    },
+    {
+      "name": "splat-ecs/lib/systems/draw-frame-rate",
+      "scenes": [
+        "main",
+        "crack-eggs",
+        "feed-cat"
+      ]
+    }
+  ]
 }
