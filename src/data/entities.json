@@ -420,8 +420,9 @@
     {
       "id": 5,
       "name": "q-tip",
+      "failure": true,
       "position": {
-        "x": 300,
+        "x": 500,
         "y": 900
       },
       "size": {
@@ -430,7 +431,7 @@
       },
       "slideX": {
         "min": -300,
-        "max": 1200,
+        "max": 700,
         "onLeft": "./scripts/q-tip-left"
       },
       "image": {
