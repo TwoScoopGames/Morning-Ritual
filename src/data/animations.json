@@ -1,28 +1,28 @@
 {
-	"egg-rocket": [{
-	"filmstripFrames": 2,
-	"time": 1,
-	"properties": {
-		"image": {
-			"name": "egg-rocket",
-			"sourceX": 0,
-			"sourceY": 0,
-			"sourceWidth": 562,
-			"sourceHeight": 409
-		}
-	}
-}],
-"alarm": [{
-"filmstripFrames": 7,
-"time": 300,
-"properties": {
-	"image": {
-		"name": "alarm-f7",
-		"sourceX": 0,
-		"sourceY": 0,
-		"sourceWidth": 1701,
-		"sourceHeight": 254
-	}
-}
-}]
+  "egg-rocket": [{
+    "filmstripFrames": 2,
+    "time": 1,
+    "properties": {
+      "image": {
+        "name": "egg-rocket",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 562,
+        "sourceHeight": 409
+      }
+    }
+  }],
+  "alarm": [{
+    "filmstripFrames": 7,
+    "time": 300,
+    "properties": {
+      "image": {
+        "name": "alarm-f7",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 1701,
+        "sourceHeight": 254
+      }
+    }
+  }]
 }
