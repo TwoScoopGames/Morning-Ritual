@@ -1,1 +1,38 @@
-{}
+{
+    "catFood1": {
+      "id": 7,
+      "name": "cat-food1",
+      "catFood": true,
+      "position": {
+        "x": 0,
+        "y": 1400
+      },
+      "image": {
+        "name": "feed-catFoodPile1.png"
+      }
+    },
+    "catFood2": {
+      "id": 8,
+      "name": "cat-food2",
+      "catFood": true,
+      "position": {
+        "x": 0,
+        "y": 1200
+      },
+      "image": {
+        "name": "feed-catFoodPile2.png"
+      }
+    },
+    "catFood3": {
+      "id": 9,
+      "name": "cat-food3",
+      "catFood": true,
+      "position": {
+        "x": 0,
+        "y": 500
+      },
+      "image": {
+        "name": "feed-catFoodPile3.png"
+      }
+    }
+}
