@@ -503,5 +503,94 @@
         "destinationHeight": 331
       }
     }
+  ],
+  "bacon": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true,
+      "matchCenter": {
+        "id": 1
+      }
+    },
+    {
+      "id": 1,
+      "name": "viewport",
+      "bg-color":"#dbc495",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1532,
+        "height": 2048
+      }
+    },
+    {
+      "id": 2,
+      "name": "game-timer",
+      "intro": "Fry bacon!",
+      "position": {
+        "x": 300,
+        "y": 800
+      },
+      "timers": {
+        "intro": {
+          "running": true,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/start-game"
+        },
+        "game": {
+          "running": false,
+          "time": 0,
+          "max": 3000,
+          "script": "./scripts/bacon-outro"
+        },
+        "outro": {
+          "running": false,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/next-scene"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "bg",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "image": {
+        "name": "Bacon-background-07.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "pan",
+      "failure": true,
+      "position": {
+        "x": 450,
+        "y": 500
+      },
+      "size": {
+        "width": 1211,
+        "height": 746
+      },
+      "slideX": {
+        "min": 30,
+        "max": 450,
+        "onLeft": "./scripts/bacon-left"
+      },
+      "image": {
+        "name": "bacon-pan1.png"
+      }
+    }
   ]
 }

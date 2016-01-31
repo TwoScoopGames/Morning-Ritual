@@ -4,6 +4,7 @@
       "name": "splat-ecs/lib/systems/match-canvas-size",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -14,6 +15,7 @@
       "name": "splat-ecs/lib/systems/advance-timers",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -24,6 +26,7 @@
       "name": "splat-ecs/lib/systems/advance-animations",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -34,6 +37,7 @@
       "name": "./systems/simulation/on-tap",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -44,6 +48,7 @@
       "name": "./systems/simulation/slide-x",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -54,6 +59,7 @@
       "name": "splat-ecs/lib/systems/control-player",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -64,6 +70,7 @@
       "name": "splat-ecs/lib/systems/apply-movement-2d",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -74,6 +81,7 @@
       "name": "splat-ecs/lib/systems/apply-velocity",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -84,6 +92,7 @@
       "name": "splat-ecs/lib/systems/apply-friction",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -94,6 +103,7 @@
       "name": "splat-ecs/lib/systems/follow-parent",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -104,6 +114,7 @@
       "name": "splat-ecs/lib/systems/match-center",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -114,6 +125,7 @@
       "name": "splat-ecs/lib/systems/box-collider",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -132,6 +144,7 @@
       "name": "splat-ecs/lib/systems/clear-screen",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -142,6 +155,7 @@
       "name": "splat-ecs/lib/systems/viewport-move-to-camera",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -152,6 +166,7 @@
       "name": "./systems/renderer/sample-renderer-system",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -162,6 +177,7 @@
       "name": "./systems/renderer/fill-background-color",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -172,6 +188,7 @@
       "name": "splat-ecs/lib/systems/draw-image",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -182,6 +199,7 @@
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -192,6 +210,7 @@
       "name": "./systems/renderer/draw-intro",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -202,6 +221,7 @@
       "name": "splat-ecs/lib/systems/viewport-reset",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
@@ -212,6 +232,7 @@
       "name": "splat-ecs/lib/systems/draw-frame-rate",
       "scenes": [
         "main",
+        "bacon",
         "brush-teeth",
         "clean-ear",
         "crack-eggs",
