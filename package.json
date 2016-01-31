@@ -33,7 +33,6 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "shader-loader": "^1.1.4",
-    "splat-ecs": "3.1.0"
+    "splat-ecs": "3.1.1"
   }
 }
