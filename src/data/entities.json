@@ -84,6 +84,24 @@
    "image": {
     "name": "eggs-background.png"
    }
+  },
+  {
+   "id": 3,
+   "name": "egg1",
+   "position": {
+    "x": 200,
+    "y": 1300
+   },
+   "size": {
+    "width": 230,
+    "height": 283
+   },
+   "onTap": {
+     "script": "./scripts/remove-failure"
+   },
+   "image": {
+    "name": "egg.png"
+   }
   }
  ]
 }
