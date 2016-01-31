@@ -458,7 +458,7 @@
           "running": false,
           "time": 0,
           "max": 3000,
-          "script": "./scripts/feed-cat-outro"
+          "script": "./scripts/brush-teeth-outro"
         },
         "outro": {
           "running": false,
@@ -477,6 +477,30 @@
       },
       "image": {
         "name": "brush-teeth-1.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "toothbrush",
+      "failure": true,
+      "position": {
+        "x": 500,
+        "y": 1300
+      },
+      "size": {
+        "width": 2000,
+        "height": 400
+      },
+      "slideX": {
+        "min": 100,
+        "max": 950,
+        "onLeft": "./scripts/tooth-brush-left"
+      },
+      "image": {
+        "name": "tooth-brush.png",
+        "destinationY": 50,
+        "destinationWidth": 1502,
+        "destinationHeight": 331
       }
     }
   ]
