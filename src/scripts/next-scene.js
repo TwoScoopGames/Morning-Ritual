@@ -1,6 +1,7 @@
 "use strict";
 
 var games = [
+	"clean-ear",
 	"crack-eggs",
 	"feed-cat"
 ];

@@ -4,6 +4,7 @@
       "name": "splat-ecs/lib/systems/match-canvas-size",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -12,6 +13,7 @@
       "name": "splat-ecs/lib/systems/advance-timers",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -20,6 +22,7 @@
       "name": "splat-ecs/lib/systems/advance-animations",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -28,6 +31,7 @@
       "name": "./systems/simulation/on-tap",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -36,6 +40,7 @@
       "name": "splat-ecs/lib/systems/control-player",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -44,6 +49,7 @@
       "name": "splat-ecs/lib/systems/apply-movement-2d",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -52,6 +58,7 @@
       "name": "splat-ecs/lib/systems/apply-velocity",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -60,6 +67,7 @@
       "name": "splat-ecs/lib/systems/apply-friction",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -68,6 +76,7 @@
       "name": "splat-ecs/lib/systems/follow-parent",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -76,6 +85,7 @@
       "name": "splat-ecs/lib/systems/match-center",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -84,6 +94,7 @@
       "name": "splat-ecs/lib/systems/box-collider",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -100,6 +111,7 @@
       "name": "splat-ecs/lib/systems/clear-screen",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -108,6 +120,7 @@
       "name": "splat-ecs/lib/systems/viewport-move-to-camera",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -116,6 +129,7 @@
       "name": "./systems/renderer/sample-renderer-system",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -130,6 +144,7 @@
       "name": "splat-ecs/lib/systems/draw-image",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -138,6 +153,7 @@
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -146,6 +162,7 @@
       "name": "./systems/renderer/draw-intro",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -154,6 +171,7 @@
       "name": "splat-ecs/lib/systems/viewport-reset",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]
@@ -162,6 +180,7 @@
       "name": "splat-ecs/lib/systems/draw-frame-rate",
       "scenes": [
         "main",
+        "clean-ear",
         "crack-eggs",
         "feed-cat"
       ]

@@ -4,6 +4,8 @@
   "onEnter": "./scripts/main-enter",
   "onExit": "./scripts/main-exit"
  },
+ "clean-ear": {
+ },
  "crack-eggs": {
  },
  "feed-cat": {
