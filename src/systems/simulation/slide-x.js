@@ -11,6 +11,7 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		var mx = game.input.mouse.x + cameraPosition.x;
 		var my = game.input.mouse.y + cameraPosition.y;
 		var slideX = game.entities.get(entity, "slideX");
+		var prevX = position.x;
 
 		var inside = mx >= position.x
 				&& mx < position.x + size.width
@@ -23,9 +24,17 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 			position.x = mx + slideX.offsetX;
 			if (position.x < slideX.min) {
 				position.x = slideX.min;
+				if (prevX > slideX.min) {
+					var onLeft = game.require(slideX.onLeft);
+					onLeft(entity, game);
+				}
 			}
 			if (position.x > slideX.max) {
 				position.x = slideX.max;
+				if (prevX < slideX.max) {
+					var onRight = game.require(slideX.onRight);
+					onRight(entity, game);
+				}
 			}
 		} else if (game.input.buttonReleased("action")) {
 			delete slideX.offsetX;

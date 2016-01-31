@@ -430,7 +430,9 @@
       },
       "slideX": {
         "min": -300,
-        "max": 1200
+        "max": 1200,
+        "onLeft": "./scripts/q-tip-left",
+        "onRight": "./scripts/q-tip-right"
       },
       "image": {
         "name": "q-tip.png",
