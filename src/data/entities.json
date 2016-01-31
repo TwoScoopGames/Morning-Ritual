@@ -293,6 +293,7 @@
       "id": 5,
       "name": "cat-face",
       "catFace": true,
+      "failure": true,
       "position": {
         "x": 800,
         "y": 900

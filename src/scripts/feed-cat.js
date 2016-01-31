@@ -15,5 +15,6 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	} else if (foodCount === 2) {
 		game.instantiatePrefab("catFood3");
 		game.entities.get(face, "image").name = "feed-catFace3.png";
+		game.entities.remove(face, "failure");
 	}
 };
