@@ -31,7 +31,10 @@
 "logo": "images/logo.png",
 "curtain": "images/title-curtain.png",
 "egg-rocket": "images/egg-rocket-f2.png",
-"timer-hand": "images/alarm-arrow1.png",
-"timer-hand2": "images/alarm-arrow2.png",
-"timer": "images/alarm-background.png"
+"timer": "images/alarm1.png",
+"timer1": "images/alarm2.png",
+"timer2": "images/alarm3.png",
+"timer3": "images/alarm4.png",
+"timer4": "images/alarm5.png",
+"timer5": "images/alarm6.png"
 }
