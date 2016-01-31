@@ -24,15 +24,17 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 			position.x = mx + slideX.offsetX;
 			if (position.x < slideX.min) {
 				position.x = slideX.min;
-				if (prevX > slideX.min) {
-					var onLeft = game.require(slideX.onLeft);
+				var leftScript = slideX.onLeft;
+				if (prevX > slideX.min && leftScript) {
+					var onLeft = game.require(leftScript);
 					onLeft(entity, game);
 				}
 			}
 			if (position.x > slideX.max) {
 				position.x = slideX.max;
-				if (prevX < slideX.max) {
-					var onRight = game.require(slideX.onRight);
+				var rightScript = slideX.onRight;
+				if (prevX < slideX.max && rightScript) {
+					var onRight = game.require(rightScript);
 					onRight(entity, game);
 				}
 			}
