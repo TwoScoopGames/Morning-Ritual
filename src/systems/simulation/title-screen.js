@@ -19,6 +19,7 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 			}
 			if (time > 1500) {
 				game.entities.set(1, "bg-color", "#7dcadb");
+				game.sounds.play("Morning_Ritual_Music1", true);
 			}
 		}
 

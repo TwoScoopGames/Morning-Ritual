@@ -1,5 +1,13 @@
 {
 	"egg-crack": "./sounds/Foley_Crack_Eggs_1.mp3",
 	"egg-dino": "./sounds/Foley_Crack_Eggs_2.mp3",
-	"curtain-pull": "./sounds/curtain-pull.wav"
+	"curtain-pull": "./sounds/curtain-pull.wav",
+	"cat-food-1": "./sounds/Morning_Ritual_Cat_Food_1.mp3",
+	"cat-food-2": "./sounds/Morning_Ritual_Cat_Food_2.mp3",
+	"cat-food-3": "./sounds/Morning_Ritual_Cat_Food_3.mp3",
+	"cat-food-4": "./sounds/Morning_Ritual_Cat_Food_4.mp3",
+	"Morning_Ritual_Music1": "./sounds/Morning_Ritual_Music1.mp3",
+	"Morning_Ritual_Music2": "./sounds/Morning_Ritual_Music2.mp3",
+	"Morning_Ritual_Music3": "./sounds/Morning_Ritual_Music3.mp3",
+	"Morning_Ritual_Music4": "./sounds/Morning_Ritual_Music4.mp3"
 }
