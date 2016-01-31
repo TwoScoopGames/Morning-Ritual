@@ -46,7 +46,7 @@
           "running": false,
           "time": 0,
           "max": 3000,
-          "script": "./scripts/pull-curtain"
+          "script": "./scripts/next-scene"
         }
       }
     },

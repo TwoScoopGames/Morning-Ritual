@@ -6,12 +6,14 @@ var games = [
 ];
 
 function randomItem(array) {
-	var i = Math.floor(Math.random() * (array.length + 1));
+	var i = Math.floor(Math.random() * array.length);
 	return array[i];
 }
 
 module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	var failures = game.entities.find("failure").length > 0;
 	console.log("is failure?", failures);
-	game.switchScene(randomItem(games));
+	var scene = randomItem(games);
+	console.log(scene);
+	game.switchScene(scene);
 };
