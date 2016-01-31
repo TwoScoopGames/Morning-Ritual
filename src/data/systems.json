@@ -198,12 +198,6 @@
     {
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
-        "main",
-        "bacon",
-        "brush-teeth",
-        "clean-ear",
-        "crack-eggs",
-        "feed-cat"
       ]
     },
     {
@@ -231,12 +225,6 @@
     {
       "name": "splat-ecs/lib/systems/draw-frame-rate",
       "scenes": [
-        "main",
-        "bacon",
-        "brush-teeth",
-        "clean-ear",
-        "crack-eggs",
-        "feed-cat"
       ]
     }
   ]
