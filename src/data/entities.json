@@ -423,11 +423,11 @@
       "failure": true,
       "position": {
         "x": 500,
-        "y": 900
+        "y": 800
       },
       "size": {
-        "width": 1000,
-        "height": 80
+        "width": 2000,
+        "height": 400
       },
       "slideX": {
         "min": -300,
@@ -436,7 +436,7 @@
       },
       "image": {
         "name": "q-tip.png",
-        "destinationY": -120,
+        "destinationY": 50,
         "destinationWidth": 1895,
         "destinationHeight": 317
       }
