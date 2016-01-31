@@ -1,12 +1,48 @@
 {"frames": [
 
 {
-	"filename": "eggs-background.png",
-	"frame": {"x":0,"y":0,"w":1536,"h":2048},
+	"filename": "ear-man.png",
+	"frame": {"x":0,"y":0,"w":1895,"h":434},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":1536,"h":2048},
-	"sourceSize": {"w":1536,"h":2048},
+	"spriteSourceSize": {"x":0,"y":0,"w":1895,"h":434},
+	"sourceSize": {"w":1895,"h":434},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "feed-catFoodBag.png",
+	"frame": {"x":0,"y":434,"w":449,"h":556},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":449,"h":556},
+	"sourceSize": {"w":449,"h":556},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ear-lobe.png",
+	"frame": {"x":449,"y":434,"w":170,"h":599},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":170,"h":599},
+	"sourceSize": {"w":170,"h":599},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "feed-catFoodPile3.png",
+	"frame": {"x":0,"y":1033,"w":1536,"h":806},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1536,"h":806},
+	"sourceSize": {"w":1536,"h":806},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "earwax.png",
+	"frame": {"x":1536,"y":1033,"w":376,"h":911},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":376,"h":911},
+	"sourceSize": {"w":376,"h":911},
 	"pivot": {"x":0.5,"y":0.5}
 }],
 "meta": {
@@ -16,6 +52,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:b800080e9419658004b7a842bdea802c:d9281276ed4a26bf6c07a02c8ff6312d:718f59462824a60253fbf743b6c3bb4b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:a7c58c2cc4626ad7f0ace0b064982660:e7826a16841541bc8454c779ec576ff2:a24f4faba89ba7f1fa473e6c3a529062$"
 }
 }
