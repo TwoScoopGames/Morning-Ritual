@@ -438,6 +438,24 @@
         "destinationWidth": 1895,
         "destinationHeight": 317
       }
+     },
+    {
+      "id": 6,
+      "name": "ear-lobe",
+      "position": {
+        "x": 0,
+        "y": 650
+      },
+      "zindex": {
+        "zindex": 10
+      },
+      "size": {
+        "width": 179,
+        "height": 599
+      },
+      "image": {
+        "name": "ear-lobe.png"
+      }
     }
   ]
 }
