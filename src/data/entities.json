@@ -95,74 +95,6 @@
     },
     {
       "id": 2,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "eggs-background.png"
-      }
-    },
-    {
-      "id": 3,
-      "name": "egg1",
-      "failure": true,
-      "position": {
-        "x": 200,
-        "y": 1300
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onTap": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    },
-    {
-      "id": 4,
-      "name": "egg2",
-      "failure": true,
-      "position": {
-        "x": 700,
-        "y": 1100
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onTap": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "egg3",
-      "failure": true,
-      "position": {
-        "x": 1100,
-        "y": 1300
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onTap": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    },
-    {
-      "id": 6,
       "name": "game-timer",
       "intro": "Make breakfast!",
       "position": {
@@ -191,7 +123,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 3,
       "name": "timer",
       "timer": true,
       "position": {
@@ -204,6 +136,74 @@
       },
       "image":{
         "name":"timer"
+      }
+    },
+    {
+      "id": 4,
+      "name": "bg",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "image": {
+        "name": "eggs-background.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "egg1",
+      "failure": true,
+      "position": {
+        "x": 200,
+        "y": 1300
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "egg2",
+      "failure": true,
+      "position": {
+        "x": 700,
+        "y": 1100
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "egg3",
+      "failure": true,
+      "position": {
+        "x": 1100,
+        "y": 1300
+      },
+      "size": {
+        "width": 230,
+        "height": 283
+      },
+      "onTap": {
+        "script": "./scripts/crack-egg"
+      },
+      "image": {
+        "name": "egg.png"
       }
     }
   ]
