@@ -127,6 +127,13 @@
    ]
   },
   {
+   "name": "./systems/renderer/draw-intro",
+   "scenes": [
+    "main",
+    "crack-eggs"
+   ]
+  },
+  {
    "name": "splat-ecs/lib/systems/viewport-reset",
    "scenes": [
     "main",

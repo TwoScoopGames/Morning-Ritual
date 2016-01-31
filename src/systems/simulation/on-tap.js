@@ -3,6 +3,10 @@
 module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 	game.entities.registerSearch("apply-on-tap", ["onTap", "position", "size"]);
 	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
+		if (game.entities.find("intro").length > 0) {
+			return;
+		}
+
 		var camera = game.entities.find("camera")[0];
 		var cameraPosition = game.entities.get(camera, "position");
 

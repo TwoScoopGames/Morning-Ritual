@@ -164,9 +164,20 @@
     {
       "id": 6,
       "name": "game-timer",
+      "intro": "Make breakfast!",
+      "position": {
+        "x": 300,
+        "y": 800
+      },
       "timers": {
-        "game": {
+        "text": {
           "running": true,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/start-game"
+        },
+        "game": {
+          "running": false,
           "time": 0,
           "max": 3000,
           "script": "./scripts/next-scene"
