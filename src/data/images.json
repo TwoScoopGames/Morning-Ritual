@@ -29,5 +29,8 @@
 "tooth-brush.png": "images/tooth-brush.png",
 "logo": "images/logo.png",
 "curtain": "images/title-curtain.png",
-"egg-rocket": "images/egg-rocket-f2.png"
+"egg-rocket": "images/egg-rocket-f2.png",
+"timer-hand": "images/alarm-arrow1.png",
+"timer-hand2": "images/alarm-arrow2.png",
+"timer": "images/alarm-background.png"
 }

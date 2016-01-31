@@ -172,6 +172,22 @@
       "script": "./scripts/next-scene"
     }
    }
+  },
+  {
+   "id": 10,
+   "name": "timer",
+   "timer": true,
+   "position": {
+	"x": 654,
+	"y": 10
+   },
+    "size": {
+ 	"width": 228,
+ 	"height": 246
+	},
+	"image":{
+		"name":"timer"
+	}
   }
  ]
 }
