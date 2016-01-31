@@ -220,7 +220,7 @@
     {
       "id": 2,
       "name": "game-timer",
-      "intro": "Feed your pet!",
+      "intro": "Feed Mittens!",
       "position": {
         "x": 300,
         "y": 800
@@ -409,6 +409,74 @@
       },
       "image": {
         "name": "ear-lobe.png"
+      }
+    }
+  ],
+  "brush-teeth": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true,
+      "matchCenter": {
+        "id": 1
+      }
+    },
+    {
+      "id": 1,
+      "name": "viewport",
+      "bg-color":"#dbc495",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1532,
+        "height": 2048
+      }
+    },
+    {
+      "id": 2,
+      "name": "game-timer",
+      "intro": "Brush your teeth!",
+      "position": {
+        "x": 300,
+        "y": 800
+      },
+      "timers": {
+        "intro": {
+          "running": true,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/start-game"
+        },
+        "game": {
+          "running": false,
+          "time": 0,
+          "max": 3000,
+          "script": "./scripts/feed-cat-outro"
+        },
+        "outro": {
+          "running": false,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/next-scene"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "bg",
+      "position": {
+        "x": 0,
+        "y": 560
+      },
+      "image": {
+        "name": "brush-teeth-1.png"
       }
     }
   ]

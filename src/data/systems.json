@@ -4,6 +4,7 @@
       "name": "splat-ecs/lib/systems/match-canvas-size",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -13,6 +14,7 @@
       "name": "splat-ecs/lib/systems/advance-timers",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -22,6 +24,7 @@
       "name": "splat-ecs/lib/systems/advance-animations",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -31,6 +34,7 @@
       "name": "./systems/simulation/on-tap",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -40,6 +44,7 @@
       "name": "./systems/simulation/slide-x",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -49,6 +54,7 @@
       "name": "splat-ecs/lib/systems/control-player",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -58,6 +64,7 @@
       "name": "splat-ecs/lib/systems/apply-movement-2d",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -67,6 +74,7 @@
       "name": "splat-ecs/lib/systems/apply-velocity",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -76,6 +84,7 @@
       "name": "splat-ecs/lib/systems/apply-friction",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -85,6 +94,7 @@
       "name": "splat-ecs/lib/systems/follow-parent",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -94,6 +104,7 @@
       "name": "splat-ecs/lib/systems/match-center",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -103,6 +114,7 @@
       "name": "splat-ecs/lib/systems/box-collider",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -120,6 +132,7 @@
       "name": "splat-ecs/lib/systems/clear-screen",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -129,6 +142,7 @@
       "name": "splat-ecs/lib/systems/viewport-move-to-camera",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -138,6 +152,7 @@
       "name": "./systems/renderer/sample-renderer-system",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -147,6 +162,7 @@
       "name": "./systems/renderer/fill-background-color",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -156,6 +172,7 @@
       "name": "splat-ecs/lib/systems/draw-image",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -165,6 +182,7 @@
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -174,6 +192,7 @@
       "name": "./systems/renderer/draw-intro",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -183,6 +202,7 @@
       "name": "splat-ecs/lib/systems/viewport-reset",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"
@@ -192,6 +212,7 @@
       "name": "splat-ecs/lib/systems/draw-frame-rate",
       "scenes": [
         "main",
+        "brush-teeth",
         "clean-ear",
         "crack-eggs",
         "feed-cat"

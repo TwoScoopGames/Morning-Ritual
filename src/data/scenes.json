@@ -4,6 +4,8 @@
   "onEnter": "./scripts/main-enter",
   "onExit": "./scripts/main-exit"
  },
+ "brush-teeth": {
+ },
  "clean-ear": {
  },
  "crack-eggs": {
