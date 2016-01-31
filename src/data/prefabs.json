@@ -31,5 +31,18 @@
     "image": {
       "name": "feed-catFoodPile3.png"
     }
+  },
+  "earWax": {
+    "name": "ear-wax",
+    "position": {
+      "x": 0,
+      "y": 1200
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "earwax.png"
+    }
   }
 }
