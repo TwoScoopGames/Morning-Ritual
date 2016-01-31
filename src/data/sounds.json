@@ -1,5 +1,5 @@
 {
-	"egg-crack": "./sounds/egg-crack.wav",
-	"egg-dino": "./sounds/egg-dino.wav",
+	"egg-crack": "./sounds/Foley_Crack_Eggs_1.mp3",
+	"egg-dino": "./sounds/Foley_Crack_Eggs_2.mp3",
 	"curtain-pull": "./sounds/curtain-pull.wav"
 }
