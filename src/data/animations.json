@@ -14,10 +14,10 @@
   }],
   "alarm": [{
     "filmstripFrames": 7,
-    "time": 300,
+    "time": 30,
     "properties": {
       "image": {
-        "name": "alarm-f7",
+        "name": "alarm7.png",
         "sourceX": 0,
         "sourceY": 0,
         "sourceWidth": 1701,
