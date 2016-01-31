@@ -11,4 +11,5 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	image.name = "ear-man.png";
 	image.destinationY -= 117;
 	image.destinationHeight = 434;
+	game.sounds.play("ear-wax");
 };
