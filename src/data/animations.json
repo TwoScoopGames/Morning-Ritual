@@ -1,2 +1,15 @@
 {
+	"egg-rocket": [{
+	"filmstripFrames": 2,
+	"time": 1,
+	"properties": {
+		"image": {
+			"name": "egg-rocket",
+			"sourceX": 0,
+			"sourceY": 0,
+			"sourceWidth": 562,
+			"sourceHeight": 409
+		}
+	}
+}]
 }
