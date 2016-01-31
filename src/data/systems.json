@@ -129,7 +129,7 @@
    ]
   },
   {
-   "name": "./systems/renderer/log-frame-rate",
+   "name": "splat-ecs/lib/systems/draw-frame-rate",
    "scenes": [
     "main",
     "crack-eggs"
