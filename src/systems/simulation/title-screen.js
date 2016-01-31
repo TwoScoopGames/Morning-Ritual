@@ -17,6 +17,9 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 				time += elapsed;
 				game.entities.get(curtain, "position").y = easing.easeInOutBounce(time, -180, -1901 + 180, 3000);
 			}
+			if (time > 1500) {
+				game.entities.set(1, "bg-color", "#7dcadb");
+			}
 		}
 
 	}, "logo");
