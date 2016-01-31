@@ -123,22 +123,6 @@
       }
     },
     {
-      "id": 3,
-      "name": "timer",
-      "timer": true,
-      "position": {
-        "x": 654,
-        "y": 10
-      },
-      "size": {
-        "width": 228,
-        "height": 246
-      },
-      "image":{
-        "name":"timer"
-      }
-    },
-    {
       "id": 4,
       "name": "bg",
       "position": {
@@ -263,22 +247,6 @@
       }
     },
     {
-      "id": 3,
-      "name": "timer",
-      "timer": true,
-      "position": {
-        "x": 654,
-        "y": 10
-      },
-      "size": {
-        "width": 228,
-        "height": 246
-      },
-      "image":{
-        "name":"timer"
-      }
-    },
-    {
       "id": 4,
       "name": "bg",
       "position": {
@@ -388,22 +356,6 @@
           "max": 1000,
           "script": "./scripts/next-scene"
         }
-      }
-    },
-    {
-      "id": 3,
-      "name": "timer",
-      "timer": true,
-      "position": {
-        "x": 654,
-        "y": 10
-      },
-      "size": {
-        "width": 228,
-        "height": 246
-      },
-      "image":{
-        "name":"timer"
       }
     },
     {

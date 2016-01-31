@@ -44,5 +44,27 @@
     "image": {
       "name": "earwax.png"
     }
+  },
+  "timer": {
+    "name": "timer",
+    "position": {
+      "x": 654,
+      "y": 10
+    },
+    "size": {
+      "width": 228,
+      "height": 246
+    },
+    "image":{
+      "name": "timer"
+    },
+    "timers": {
+      "changeTimer": {
+        "running": true,
+        "time": 0,
+        "max": 1,
+        "script": "./scripts/change-timer"
+      }
+    }
   }
 }
