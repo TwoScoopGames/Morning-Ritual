@@ -288,6 +288,48 @@
       "image": {
         "name": "feed-background.png"
       }
+    },
+    {
+      "id": 5,
+      "name": "cat-face",
+      "position": {
+        "x": 800,
+        "y": 900
+      },
+      "image": {
+        "name": "feed-catFace1.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "cat-food-bag",
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "size": {
+        "width": 449,
+        "height": 559
+      },
+      "rotation": {
+        "x": 100,
+        "y": 100,
+        "angle": 0.0
+      },
+      "image": {
+        "name": "feed-catFoodBag.png"
+      },
+      "onTap": {
+        "script": "./scripts/feed-cat"
+      },
+      "timers": {
+        "unrotateFood": {
+          "running": false,
+          "time": 0,
+          "max": 300,
+          "script": "./scripts/unrotate-food"
+        }
+      }
     }
   ]
 }
