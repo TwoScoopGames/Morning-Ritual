@@ -15,7 +15,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+	  "viewPort": true,
       "bg-color":"#0d2342",
       "position": {
         "x": 0,
@@ -83,7 +84,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+ "viewPort": true,
       "position": {
         "x": 0,
         "y": 0
@@ -207,7 +209,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+ "viewPort": true,
       "position": {
         "x": 0,
         "y": 0
@@ -318,7 +321,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+ "viewPort": true,
       "bg-color":"#0d2342",
       "position": {
         "x": 0,
@@ -428,7 +432,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+ "viewPort": true,
       "bg-color":"#dbc495",
       "position": {
         "x": 0,
@@ -520,7 +525,8 @@
     },
     {
       "id": 1,
-      "name": "viewport",
+     "name": "viewport",
+ "viewPort": true,
       "bg-color":"#dbc495",
       "position": {
         "x": 0,
