@@ -592,5 +592,200 @@
         "name": "bacon-pan1.png"
       }
     }
+  ],
+  "alarm": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true,
+      "matchCenter": {
+        "id": 1
+      }
+    },
+    {
+      "id": 1,
+      "name": "viewport",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1532,
+        "height": 2048
+      }
+    },
+    {
+      "id": 2,
+      "name": "game-timer",
+      "intro": "Snooze!",
+      "position": {
+        "x": 300,
+        "y": 800
+      },
+      "timers": {
+        "intro": {
+          "running": true,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/start-game"
+        },
+        "game": {
+          "running": false,
+          "time": 0,
+          "max": 3000,
+          "script": "./scripts/alarm-outro"
+        },
+        "outro": {
+          "running": false,
+          "time": 0,
+          "max": 1000,
+          "script": "./scripts/next-scene"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "bg",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "image": {
+        "name": "alarm-clock.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "button1",
+      "button": true,
+      "position": {
+        "x": 360,
+        "y": 880
+      },
+      "size": {
+        "width": 170,
+        "height": 90
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 6,
+      "name": "button2",
+      "button": true,
+      "position": {
+        "x": 760,
+        "y": 890
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 7,
+      "name": "button3",
+      "button": true,
+      "position": {
+        "x": 980,
+        "y": 880
+      },
+      "size": {
+        "width": 410,
+        "height": 100
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 8,
+      "name": "button4",
+      "button": true,
+      "position": {
+        "x": 530,
+        "y": 950
+      },
+      "size": {
+        "width": 170,
+        "height": 80
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 9,
+      "name": "button5",
+      "button": true,
+      "position": {
+        "x": 750,
+        "y": 990
+      },
+      "size": {
+        "width": 130,
+        "height": 70
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 10,
+      "name": "button6",
+      "button": true,
+      "position": {
+        "x": 930,
+        "y": 1010
+      },
+      "size": {
+        "width": 290,
+        "height": 80
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 11,
+      "name": "button7",
+      "button": true,
+      "position": {
+        "x": 230,
+        "y": 1050
+      },
+      "size": {
+        "width": 170,
+        "height": 50
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    },
+    {
+      "id": 12,
+      "name": "button8",
+      "button": true,
+      "position": {
+        "x": 420,
+        "y": 1050
+      },
+      "size": {
+        "width": 170,
+        "height": 50
+      },
+      "onTap": {
+        "script": "./scripts/wrong-button"
+      }
+    }
   ]
 }

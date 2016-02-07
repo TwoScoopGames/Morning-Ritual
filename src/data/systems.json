@@ -4,6 +4,7 @@
       "name": "splat-ecs/lib/systems/match-canvas-size",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -15,6 +16,7 @@
       "name": "splat-ecs/lib/systems/advance-timers",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -26,6 +28,7 @@
       "name": "splat-ecs/lib/systems/advance-animations",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -37,6 +40,7 @@
       "name": "./systems/simulation/on-tap",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -48,6 +52,7 @@
       "name": "./systems/simulation/slide-x",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -59,6 +64,7 @@
       "name": "splat-ecs/lib/systems/control-player",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -70,6 +76,7 @@
       "name": "splat-ecs/lib/systems/apply-movement-2d",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -81,6 +88,7 @@
       "name": "splat-ecs/lib/systems/apply-velocity",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -92,6 +100,7 @@
       "name": "splat-ecs/lib/systems/apply-friction",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -103,6 +112,7 @@
       "name": "splat-ecs/lib/systems/follow-parent",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -114,6 +124,7 @@
       "name": "splat-ecs/lib/systems/match-center",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -125,6 +136,7 @@
       "name": "splat-ecs/lib/systems/box-collider",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -144,6 +156,7 @@
       "name": "splat-ecs/lib/systems/clear-screen",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -155,6 +168,7 @@
       "name": "splat-ecs/lib/systems/viewport-move-to-camera",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -166,6 +180,7 @@
       "name": "./systems/renderer/sample-renderer-system",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -177,6 +192,7 @@
       "name": "./systems/renderer/fill-background-color",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -188,6 +204,7 @@
       "name": "splat-ecs/lib/systems/draw-image",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -198,12 +215,14 @@
     {
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
+        "alarm"
       ]
     },
     {
       "name": "./systems/renderer/draw-intro",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",
@@ -215,6 +234,7 @@
       "name": "splat-ecs/lib/systems/viewport-reset",
       "scenes": [
         "main",
+        "alarm",
         "bacon",
         "brush-teeth",
         "clean-ear",

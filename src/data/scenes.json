@@ -4,6 +4,9 @@
   "onEnter": "./scripts/main-enter",
   "onExit": "./scripts/main-exit"
  },
+ "alarm": {
+  "onEnter": "./scripts/alarm-enter"
+ },
  "bacon": {
  },
  "brush-teeth": {
