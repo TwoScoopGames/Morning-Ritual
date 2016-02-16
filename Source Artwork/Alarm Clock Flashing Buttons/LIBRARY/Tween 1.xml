@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 1" itemID="56c3ac0f-00000287" symbolType="graphic" lastModified="1455664143">
+  <timeline>
+    <DOMTimeline name="Tween 1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="-961.25" ty="-769.55"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix tx="-961.25" ty="-769.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!27681 16533S2/10452 16633!10452 16633/8922 14149!8922 14149|29529 14149!29529 14149/27681 16533"/>
+                        <Edge cubics="!29529 14149(;29529,14149 27681,16533 27681,16533p29529 14149q27681 16533);"/>
+                        <Edge cubics="!10452 16633(;10452,16633 8922,14149 8922,14149p10452 16633q8922 14149);"/>
+                        <Edge cubics="!8922 14149(;8922,14149 29529,14149 29529,14149q8922 14149 29529 14149);"/>
+                        <Edge cubics="!27681 16533(;27681,16533 10452,16633 10452,16633q27681 16533 10452 16633);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

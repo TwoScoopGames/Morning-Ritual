@@ -1,0 +1,315 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1080" currentTimeline="2" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveIntervalMinutes="1">
+     <folders>
+          <DOMFolderItem name="FlashAICB" itemID="56c3aac3-0000024c"/>
+          <DOMFolderItem name="FlashAICB/art" itemID="56c3aac3-0000024d"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="FlashAICB/art/&lt;Group&gt;" itemID="56c3aac3-00000250" sourceExternalFilepath="./LIBRARY/FlashAICB/art/&amp;#060Group&amp;#062" sourceLastImported="1455663811" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="FlashAICB/art/&amp;#060Group&amp;#062" bitmapDataHRef="M 1 1455663811.dat" frameRight="21980" frameBottom="2820"/>
+     </media>
+     <symbols>
+          <Include href="Symbol 1.xml" loadImmediate="false" itemID="56c3ab76-00000253" lastModified="1455663990"/>
+          <Include href="Symbol 2.xml" loadImmediate="false" itemID="56c3ab7a-00000257" lastModified="1455663994"/>
+          <Include href="Symbol 3.xml" loadImmediate="false" itemID="56c3ab7d-0000025a" lastModified="1455663997"/>
+          <Include href="Symbol 4.xml" loadImmediate="false" itemID="56c3ab81-0000025d" lastModified="1455664001"/>
+          <Include href="Symbol 5.xml" loadImmediate="false" itemID="56c3ab91-00000260" lastModified="1455664017"/>
+          <Include href="Symbol 6.xml" loadImmediate="false" itemID="56c3ab94-00000263" lastModified="1455664020"/>
+          <Include href="Symbol 7.xml" loadImmediate="false" itemID="56c3ab98-00000266" lastModified="1455664025"/>
+          <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="56c3ac0f-00000287" lastModified="1455664143"/>
+          <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="56c3ac0f-00000289" lastModified="1455664143"/>
+          <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="56c3ac0f-0000028b" lastModified="1455664143"/>
+          <Include href="Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="56c3ac0f-0000028d" lastModified="1455664143"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 2" currentFrame="2">
+               <layers>
+                    <DOMLayer name="Symbol 5" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5" centerPoint3DX="516.95" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5" selected="true" centerPoint3DX="516.95" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5" centerPoint3DX="516.95" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.33203125" blueMultiplier="0.33203125" greenMultiplier="0.33203125" redOffset="170" blueOffset="170" greenOffset="170"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 6" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6" centerPoint3DX="868.65" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6" selected="true" centerPoint3DX="868.65" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6" centerPoint3DX="868.65" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.6640625" blueMultiplier="0.6640625" greenMultiplier="0.6640625" redOffset="85" blueOffset="85" greenOffset="85"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 4" color="#4FFFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 4" centerPoint3DX="165.25" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 4" selected="true" centerPoint3DX="165.25" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 4" centerPoint3DX="165.25" centerPoint3DY="323.7">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="228.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.6640625" blueMultiplier="0.6640625" greenMultiplier="0.6640625" redOffset="85" blueOffset="85" greenOffset="85"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 3" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 3" centerPoint3DX="868.65" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 3" selected="true" centerPoint3DX="868.65" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 3" centerPoint3DX="868.65" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="716.1" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.33203125" blueMultiplier="0.33203125" greenMultiplier="0.33203125" redOffset="170" blueOffset="170" greenOffset="170"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 2" color="#4F80FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2" centerPoint3DX="516.95" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2" selected="true" centerPoint3DX="516.95" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2" centerPoint3DX="516.95" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="364.4" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.6640625" blueMultiplier="0.6640625" greenMultiplier="0.6640625" redOffset="85" blueOffset="85" greenOffset="85"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 1" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" centerPoint3DX="165.25" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" selected="true" centerPoint3DX="165.25" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintColor="#FFFFFF"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" centerPoint3DX="165.25" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="12.7" ty="18.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="152.55" y="95.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.33203125" blueMultiplier="0.33203125" greenMultiplier="0.33203125" redOffset="170" blueOffset="170" greenOffset="170"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>
