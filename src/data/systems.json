@@ -275,6 +275,19 @@
       ]
     },
     {
+      "name": "./systems/renderer/crop-game",
+      "scenes": [
+        "main",
+        "alarm",
+        "bacon",
+        "brush-teeth",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat",
+        "make-bed"
+      ]
+    },
+    {
       "name": "splat-ecs/lib/systems/viewport-reset",
       "scenes": [
         "main",
