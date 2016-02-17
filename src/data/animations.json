@@ -24,5 +24,44 @@
         "sourceHeight": 254
       }
     }
+  }],
+  "bed-cat-1": [{
+	"filmstripFrames": 5,
+	"time": 150,
+	"properties": {
+	  "image": {
+		"name": "bed-cat-1-f5.png",
+		"sourceX": 0,
+		"sourceY": 0,
+		"sourceWidth": 2040,
+		"sourceHeight": 281
+	  }
+	}
+  }],
+  "bed-cat-2": [{
+  "filmstripFrames": 9,
+  "time": 100,
+  "properties": {
+	"image": {
+	  "name": "bed-cat-2-f9.png",
+	  "sourceX": 0,
+	  "sourceY": 0,
+	  "sourceWidth": 1962,
+	  "sourceHeight": 322
+	}
+  }
+  }],
+  "bed-cat-3": [{
+  "filmstripFrames": 9,
+  "time": 100,
+  "properties": {
+	"image": {
+	  "name": "bed-cat-3-f9.png",
+	  "sourceX": 0,
+	  "sourceY": 0,
+	  "sourceWidth": 2040,
+	  "sourceHeight": 267
+	}
+  }
   }]
 }
