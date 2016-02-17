@@ -66,6 +66,19 @@
       ]
     },
     {
+      "name": "./systems/simulation/snap-to-center",
+      "scenes": [
+        "main",
+        "alarm",
+        "bacon",
+        "brush-teeth",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat",
+        "make-bed"
+      ]
+    },
+    {
       "name": "./systems/simulation/slide-x",
       "scenes": [
         "main",
