@@ -669,7 +669,7 @@
       "id": 5,
       "name": "pillow1",
       "position": {
-        "x": 100,
+        "x": 800,
         "y": 1500
       },
       "size": {
@@ -697,6 +697,40 @@
       "size": {
         "width": 358,
         "height": 244
+      }
+    },
+    {
+      "id": 7,
+      "name": "pillow2",
+      "position": {
+        "x": 100,
+        "y": 1500
+      },
+      "size": {
+        "width": 406,
+        "height": 335
+      },
+      "image": {
+        "name": "makeBed-pillow2.png"
+      },
+      "drag": {},
+      "failure": true,
+      "snapToCenter": {
+        "target": 8,
+        "distance": 100,
+        "onSnap": "./scripts/stop-dragging"
+      }
+    },
+    {
+      "id": 8,
+      "name": "pillow2-target",
+      "position": {
+        "x": 800,
+        "y": 600
+      },
+      "size": {
+        "width": 406,
+        "height": 335
       }
     }
   ],
