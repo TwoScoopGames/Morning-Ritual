@@ -680,9 +680,11 @@
         "name": "makeBed-pillow.png"
       },
       "drag": {},
+      "failure": true,
       "snapToCenter": {
         "target": 6,
-        "distance": 100
+        "distance": 100,
+        "onSnap": "./scripts/stop-dragging"
       }
     },
     {

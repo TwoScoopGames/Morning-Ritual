@@ -34,9 +34,13 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 
 		var d2 = distanceSquared(cx, cy, tcx, tcy);
 		if (d2 <= snapToCenter.distance * snapToCenter.distance) {
-			console.log("snapping!");
 			position.x = tcx - Math.round(size.width / 2);
 			position.y = tcy - Math.round(size.height / 2);
+			var snapScript = snapToCenter.onSnap;
+			if (snapScript) {
+				var onSnap = game.require(snapScript);
+				onSnap(entity, game);
+			}
 		}
 	}, "snap-to-center");
 };
