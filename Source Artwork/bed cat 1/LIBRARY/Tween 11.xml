@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 11" itemID="56c3caf8-000003a6" symbolType="graphic" lastModified="1455672056">
+  <timeline>
+    <DOMTimeline name="Tween 11">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-440.65" ty="-1105.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9192 22105[9192 22255 9081 22361!9081 22361[8970 22467 8813 22467!8813 22467[8656 22467 8545 22361!8545 22361[8434 22255 8434 22105!8434 22105[8434 21955 8545 21850!8545 21850[8656 21744 8813 21744!8813 21744[8970 21744 9081 21850!9081
+ 21850[9192 21955 9192 22105"/>
+                    <Edge cubics="!9192 22105(;9192,22305 9022,22467 8813,22467q9192 22105Q9192 22255q9081 22361Q8970 22467q8813 22467);"/>
+                    <Edge cubics="!8813 22467(;8604,22467 8434,22305 8434,22105q8813 22467Q8656 22467q8545 22361Q8434 22255q8434 22105);"/>
+                    <Edge cubics="!8434 22105(;8434,21905 8604,21744 8813,21744q8434 22105Q8434 21955q8545 21850Q8656 21744q8813 21744);"/>
+                    <Edge cubics="!8813 21744(;9022,21744 9192,21905 9192,22105q8813 21744Q8970 21744q9081 21850Q9192 21955q9192 22105);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

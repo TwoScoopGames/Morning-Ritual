@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 35" itemID="56c3cc6a-0000050a" symbolType="graphic" lastModified="1455672426">
+  <timeline>
+    <DOMTimeline name="Tween 35">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1012.55" ty="-1220.75"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D8D8D8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!21183 24252|20739 24990!20739 24990[20703 24928 20492 24761!20492 24761|20288 24607!20288 24607|20044 24451!20044 24451|19788 24323!19788 24323|19320 24238!19320 24238|19576 23841!19576 23841|20115 23983!20115 23983|20611 23983!20611
+ 23983|21104 24051!21104 24051|21183 24252"/>
+                    <Edge cubics="!20739 24990(;20682,24891 20288,24607 20288,24607q20739 24990Q20703 24928q20492 24761Q20288 24607q20288 24607);"/>
+                    <Edge cubics="!20288 24607(;20288,24607 20044,24451 20044,24451q20288 24607 20044 24451);"/>
+                    <Edge cubics="!20044 24451(;20044,24451 19788,24323 19788,24323q20044 24451 19788 24323);"/>
+                    <Edge cubics="!19788 24323(;19788,24323 19320,24238 19320,24238q19788 24323 19320 24238);"/>
+                    <Edge cubics="!19320 24238(;19320,24238 19576,23841 19576,23841q19320 24238 19576 23841);"/>
+                    <Edge cubics="!19576 23841(;19576,23841 20115,23983 20115,23983q19576 23841 20115 23983);"/>
+                    <Edge cubics="!20115 23983(;20115,23983 20611,23983 20611,23983q20115 23983 20611 23983);"/>
+                    <Edge cubics="!20611 23983(;20611,23983 21104,24051 21104,24051q20611 23983 21104 24051);"/>
+                    <Edge cubics="!21104 24051(;21104,24051 21183,24252 21183,24252q21104 24051 21183 24252);"/>
+                    <Edge cubics="!21183 24252(;21183,24252 20739,24990 20739,24990q21183 24252 20739 24990);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

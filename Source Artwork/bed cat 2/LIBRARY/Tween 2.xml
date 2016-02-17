@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 2" itemID="56c3cbeb-0000044b" symbolType="graphic" lastModified="1455672299">
+  <timeline>
+    <DOMTimeline name="Tween 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="-925.3" ty="-613.65"/>
+                  </matrix>
+                  <members>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="-925.3" ty="-613.65"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-800.9" ty="-1007.45"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#232220"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!16030 20285[16065 20196 16136 20039!16136 20039[16149 20013 16123 19998!16123 19998[16097 19983 16085 20009!16085 20009[16011 20168 15972 20269!15972 20269[15962 20297 15991 20304!15991 20304[16020 20312 16030 20285"/>
+                            <Edge cubics="!16030 20285(;16062,20202 16099,20120 16136,20039q16030 20285Q16065 20196q16136 20039);"/>
+                            <Edge cubics="!16136 20039(;16153,20004 16101,19974 16085,20009q16136 20039Q16149 20013q16123 19998Q16097 19983q16085 20009);"/>
+                            <Edge cubics="!16085 20009(;16045,20095 16006,20181 15972,20269q16085 20009Q16011 20168q15972 20269);"/>
+                            <Edge cubics="!15972 20269(;15959,20306 16017,20321 16030,20285q15972 20269Q15962 20297q15991 20304Q16020 20312q16030 20285);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="-925.3" ty="-613.65"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-800.9" ty="-1007.45"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#232220"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!15871 20045[15901 20068 16002 20129!16002 20129[16084 20179 16126 20221!16126 20221[16146 20241 16167 20220!16167 20220[16188 20199 16168 20178!16168 20178[16126 20135 16044 20086!16044 20086[15942 20025 15914 20003!15914 20003[15891
+ 19986 15870 20007!15870 20007[15848 20028 15871 20045"/>
+                            <Edge cubics="!15871 20045(;15953,20109 16052,20146 16126,20221q15871 20045Q15901 20068q16002 20129Q16084 20179q16126 20221);"/>
+                            <Edge cubics="!16126 20221(;16153,20248 16195,20206 16168,20178q16126 20221Q16146 20241q16167 20220Q16188 20199q16168 20178);"/>
+                            <Edge cubics="!16168 20178(;16094,20103 15996,20066 15914,20003q16168 20178Q16126 20135q16044 20086Q15942 20025q15914 20003);"/>
+                            <Edge cubics="!15914 20003(;15883,19980 15841,20022 15871,20045q15914 20003Q15891 19986q15870 20007Q15848 20028q15871 20045);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

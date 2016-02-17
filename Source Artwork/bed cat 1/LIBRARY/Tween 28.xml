@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 28" itemID="56c3caf8-000003c8" symbolType="graphic" lastModified="1455672056">
+  <timeline>
+    <DOMTimeline name="Tween 28">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-357.2" ty="-1105.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E27F69"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!7372 21921[7302 21854 7208 21842!7208 21842[7112 21829 7032 21880!7032 21880[6952 21931 6924 22022!6924 22022[6896 22112 6932 22202!6932 22202[7027 22179 7126 22224!7126 22224[7228 22269 7292 22366!7292 22366|7295 22371!7295 22371[7320
+ 22362 7342 22347!7342 22347[7358 22339 7376 22322!7376 22322|7372 22316!7372 22316[7305 22216 7306 22105!7306 22105[7307 21996 7372 21921"/>
+                    <Edge cubics="!7292 22366(;7293,22368 7294,22370 7295,22371q7292 22366 7295 22371);"/>
+                    <Edge cubics="!7295 22371(;7311,22365 7327,22357 7342,22347q7295 22371Q7320 22362q7342 22347);"/>
+                    <Edge cubics="!7342 22347(;7355,22340 7366,22331 7376,22322q7342 22347Q7358 22339q7376 22322);"/>
+                    <Edge cubics="!7376 22322(;7375,22320 7373,22318 7372,22316q7376 22322 7372 22316);"/>
+                    <Edge cubics="!7372 22316(;7282,22181 7287,22019 7372,21921q7372 22316Q7305 22216q7306 22105Q7307 21996q7372 21921);"/>
+                    <Edge cubics="!7372 21921(;7280,21832 7139,21812 7032,21880q7372 21921Q7302 21854q7208 21842Q7112 21829q7032 21880);"/>
+                    <Edge cubics="!7032 21880(;6924,21948 6885,22083 6932,22202q7032 21880Q6952 21931q6924 22022Q6896 22112q6932 22202);"/>
+                    <Edge cubics="!6932 22202(;7057,22172 7205,22235 7292,22366q6932 22202Q7027 22179q7126 22224Q7228 22269q7292 22366);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

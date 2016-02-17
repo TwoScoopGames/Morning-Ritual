@@ -1,0 +1,1082 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#00CC66" width="1920" height="1080" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveIntervalMinutes="1">
+     <folders>
+          <DOMFolderItem name="FlashAICB" itemID="56c3ca05-00000354"/>
+          <DOMFolderItem name="FlashAICB/Layer 11" itemID="56c3ca05-00000355"/>
+     </folders>
+     <symbols>
+          <Include href="FlashAICB/Layer 11/&amp;#060Path&amp;#062_50.xml" loadImmediate="false" itemID="56c3ca05-00000357" lastModified="1455671813"/>
+          <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004c6" lastModified="1455672426"/>
+          <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004c8" lastModified="1455672426"/>
+          <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004ca" lastModified="1455672426"/>
+          <Include href="Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004cc" lastModified="1455672426"/>
+          <Include href="Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004ce" lastModified="1455672426"/>
+          <Include href="Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004d0" lastModified="1455672426"/>
+          <Include href="Tween 7.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004d2" lastModified="1455672426"/>
+          <Include href="Tween 8.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004d4" lastModified="1455672426"/>
+          <Include href="Tween 9.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004d6" lastModified="1455672426"/>
+          <Include href="Tween 10.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004d8" lastModified="1455672426"/>
+          <Include href="Tween 11.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004da" lastModified="1455672426"/>
+          <Include href="Tween 12.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004dc" lastModified="1455672426"/>
+          <Include href="Tween 13.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004de" lastModified="1455672426"/>
+          <Include href="Tween 14.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004e0" lastModified="1455672426"/>
+          <Include href="Tween 15.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004e2" lastModified="1455672426"/>
+          <Include href="Tween 16.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004e4" lastModified="1455672426"/>
+          <Include href="Tween 17.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004e6" lastModified="1455672426"/>
+          <Include href="Tween 18.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004e8" lastModified="1455672426"/>
+          <Include href="Tween 19.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004ea" lastModified="1455672426"/>
+          <Include href="Tween 20.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004ec" lastModified="1455672426"/>
+          <Include href="Tween 21.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004ee" lastModified="1455672426"/>
+          <Include href="Tween 22.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004f0" lastModified="1455672426"/>
+          <Include href="Tween 23.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004f2" lastModified="1455672426"/>
+          <Include href="Tween 24.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004f4" lastModified="1455672426"/>
+          <Include href="Tween 25.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004f6" lastModified="1455672426"/>
+          <Include href="Tween 26.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004f8" lastModified="1455672426"/>
+          <Include href="Tween 27.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004fa" lastModified="1455672426"/>
+          <Include href="Tween 28.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004fc" lastModified="1455672426"/>
+          <Include href="Tween 29.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-000004fe" lastModified="1455672426"/>
+          <Include href="Tween 30.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000500" lastModified="1455672426"/>
+          <Include href="Tween 31.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000502" lastModified="1455672426"/>
+          <Include href="Tween 32.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000504" lastModified="1455672426"/>
+          <Include href="Tween 33.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000506" lastModified="1455672426"/>
+          <Include href="Tween 34.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000508" lastModified="1455672426"/>
+          <Include href="Tween 35.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000050a" lastModified="1455672426"/>
+          <Include href="Tween 36.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000050c" lastModified="1455672426"/>
+          <Include href="Tween 37.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000050e" lastModified="1455672426"/>
+          <Include href="Tween 38.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000510" lastModified="1455672426"/>
+          <Include href="Tween 39.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000512" lastModified="1455672426"/>
+          <Include href="Tween 40.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000514" lastModified="1455672426"/>
+          <Include href="Tween 41.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000516" lastModified="1455672426"/>
+          <Include href="Tween 42.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000518" lastModified="1455672426"/>
+          <Include href="Tween 43.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000051a" lastModified="1455672426"/>
+          <Include href="Tween 44.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000051c" lastModified="1455672426"/>
+          <Include href="Tween 45.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000051e" lastModified="1455672426"/>
+          <Include href="Tween 46.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000520" lastModified="1455672426"/>
+          <Include href="Tween 47.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000522" lastModified="1455672426"/>
+          <Include href="Tween 48.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000524" lastModified="1455672426"/>
+          <Include href="Tween 49.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000526" lastModified="1455672426"/>
+          <Include href="Tween 50.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000528" lastModified="1455672426"/>
+          <Include href="Tween 51.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000052a" lastModified="1455672426"/>
+          <Include href="Tween 52.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000052c" lastModified="1455672426"/>
+          <Include href="Tween 53.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000052e" lastModified="1455672426"/>
+          <Include href="Tween 54.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000530" lastModified="1455672426"/>
+          <Include href="Tween 55.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000532" lastModified="1455672426"/>
+          <Include href="Tween 56.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000534" lastModified="1455672426"/>
+          <Include href="Tween 57.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000536" lastModified="1455672426"/>
+          <Include href="Tween 58.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-00000538" lastModified="1455672426"/>
+          <Include href="Tween 59.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000053a" lastModified="1455672426"/>
+          <Include href="Tween 60.xml" itemIcon="1" loadImmediate="false" itemID="56c3cc6a-0000053c" lastModified="1455672426"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="6">
+               <layers>
+                    <DOMLayer name="Layer 9" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 22" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1450.3" ty="710.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 23" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.856964111328125" b="0.515335083007812" c="-0.515335083007812" d="0.856964111328125" tx="1451.1" ty="742.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 24" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1450.3" ty="710.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 23" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.500778198242188" b="-0.864349365234375" c="0.864349365234375" d="0.500778198242188" tx="1391.65" ty="657.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 24" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1450.3" ty="710.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 20" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 49" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1415.85" ty="732.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 50" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.856964111328125" b="0.515335083007812" c="-0.515335083007812" d="0.856964111328125" tx="1410.1" ty="744.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 51" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1415.85" ty="732.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 50" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.500778198242188" b="-0.864349365234375" c="0.864349365234375" d="0.500778198242188" tx="1393.8" ty="697.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 51" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1415.85" ty="732.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 1" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1308.8" ty="609.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 2" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.996658325195312" b="-0.0817108154296875" c="0.0817108154296875" d="0.996658325195312" tx="1304.3" ty="608.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 3" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1308.8" ty="609.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#FF800A">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 4" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1310.05" ty="610.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 5" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.996658325195312" b="-0.0817108154296875" c="0.0817108154296875" d="0.996658325195312" tx="1305.6" ty="608.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 6" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1310.05" ty="610.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 7" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1306.85" ty="753.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 8" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.771865844726562" b="0.0506439208984375" c="-0.0654754638671875" d="0.997848510742188" tx="1310.7" ty="743.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 8" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="1.12652587890625" b="0.030059814453125" c="-0.026641845703125" d="0.999557495117188" tx="1308.5" ty="751.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 9" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1306.85" ty="753.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#4FFFFF">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 10" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1342.85" ty="823.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 11" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1342.05" ty="817.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 12" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1342.85" ty="823.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#FF4F4F">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 19" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1122.6" ty="722.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 20" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.947067260742188" b="-0.321029663085938" c="0.321029663085938" d="0.947067260742188" tx="1126.9" ty="752.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 21" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1122.6" ty="722.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 20" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.362808227539062" b="0.931747436523438" c="-0.931747436523438" d="0.362808227539062" tx="1195" ty="595.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 21" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1122.6" ty="722.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 21" color="#4FFFFF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 52" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1192.6" ty="729.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 53" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.947067260742188" b="-0.321029663085938" c="0.321029663085938" d="0.947067260742188" tx="1195.5" ty="736.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 54" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1192.6" ty="729.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 53" selected="true" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.362808227539062" b="0.931747436523438" c="-0.931747436523438" d="0.362808227539062" tx="1213.9" ty="662.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 54" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1192.6" ty="729.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#808080">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 13" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1399.95" ty="586.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 14" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.999679565429688" b="-0.0259552001953125" c="0.0259552001953125" d="0.999679565429688" tx="1403.6" ty="578.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 14" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.954849243164062" b="-0.296981811523438" c="0.296981811523438" d="0.954849243164062" tx="1368.85" ty="563.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 15" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1399.95" ty="586.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 13" color="#4FFFFF">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 31" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1384.45" ty="629.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 32" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.999679565429688" b="-0.0259552001953125" c="0.0259552001953125" d="0.999679565429688" tx="1389.3" ty="622.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 32" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.954849243164062" b="-0.296981811523438" c="0.296981811523438" d="0.954849243164062" tx="1367.1" ty="609.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 33" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1384.45" ty="629.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#4F80FF">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 16" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1179.7" ty="617.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 17" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.941452026367188" b="0.337203979492188" c="-0.337203979492188" d="0.941452026367188" tx="1201.8" ty="583.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 18" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1179.7" ty="617.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 10" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 25" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1260.2" ty="812.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 26" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1260.25" ty="801.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 27" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1260.2" ty="812.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 12" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 28" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1306.85" ty="782.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 29" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1308.85" ty="774.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 30" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1306.85" ty="782.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 14" color="#808080">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 34" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1222.7" ty="639.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 35" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.941452026367188" b="0.337203979492188" c="-0.337203979492188" d="0.941452026367188" tx="1234.95" ty="618.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 36" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1222.7" ty="639.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 15" color="#4F80FF">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 37" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1300.7" ty="789.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 38" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1302.2" ty="781.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 39" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1300.7" ty="789.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="&lt;Path&gt;_50" color="#FF4F4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="FlashAICB/Layer 11/&lt;Path&gt;_50" blendMode="layer" centerPoint3DX="1306.8" centerPoint3DY="749.45">
+                                             <matrix>
+                                                  <Matrix tx="1236.15" ty="700.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="70.65" y="48.95"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="FlashAICB/Layer 11/&lt;Path&gt;_50" blendMode="layer" centerPoint3DX="1313.8" centerPoint3DY="748.55">
+                                             <matrix>
+                                                  <Matrix a="0.996658325195312" b="-0.0817108154296875" c="0.0817108154296875" d="0.996658325195312" tx="1239.35" ty="704.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="70.65" y="48.95"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="FlashAICB/Layer 11/&lt;Path&gt;_50" blendMode="layer" centerPoint3DX="1306.8" centerPoint3DY="749.45">
+                                             <matrix>
+                                                  <Matrix tx="1236.15" ty="700.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="70.65" y="48.95"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 17" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 40" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1210.75" ty="824.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 40" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.990875244140625" b="-0.134109497070312" c="0.134109497070312" d="0.990875244140625" tx="1210.45" ty="817.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 41" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1210.15" ty="810.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 42" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1210.75" ty="824.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 18" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 43" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1309.85" ty="677.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 44" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.996658325195312" b="-0.0817108154296875" c="0.0817108154296875" d="0.996658325195312" tx="1310.95" ty="676.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 45" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1309.85" ty="677.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 19" color="#FF800A">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 46" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1310.2" ty="698.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 47" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.996658325195312" b="-0.0817108154296875" c="0.0817108154296875" d="0.996658325195312" tx="1313" ty="696.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 48" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1310.2" ty="698.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 22" color="#808080">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 55" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1387.2" ty="846.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 56" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.997848510742188" b="0.0654754638671875" c="-0.0654754638671875" d="0.997848510742188" tx="1384.75" ty="844.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 56" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.9383544921875" b="-0.345291137695312" c="0.345291137695312" d="0.9383544921875" tx="1387.95" ty="836.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 57" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1387.2" ty="846.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 23" color="#4F80FF">
+                         <frames>
+                              <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 58" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1348.4" ty="536.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 59" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.934005737304688" b="-0.357223510742188" c="0.357223510742188" d="0.934005737304688" tx="1313.65" ty="526.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tween 60" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1348.4" ty="536.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>
