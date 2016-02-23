@@ -66,5 +66,60 @@
         "script": "./scripts/change-timer"
       }
     }
+  },
+  "bed-cat-1": {
+    "name": "bed-cat-1",
+    "position": {
+      "x": 825,
+      "y": 1118
+    },
+    "size": {
+      "width": 408,
+      "height": 281
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-1"
+    }
+  },
+  "bed-cat-2": {
+    "name": "bed-cat-2",
+    "position": {
+      "x": 990,
+      "y": 818
+    },
+    "size": {
+      "width": 218,
+      "height": 322
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-2"
+    }
+  },
+  "bed-cat-3": {
+    "id": 11,
+    "name": "bed-cat-3",
+    "position": {
+      "x": 408,
+      "y": 760
+    },
+    "size": {
+      "width": 226,
+      "height": 267
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-3"
+    }
   }
 }
