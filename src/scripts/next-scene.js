@@ -7,7 +7,8 @@ var games = [
 	"clean-ear",
 	"crack-eggs",
 	"feed-cat",
-	"make-bed"
+	"make-bed",
+	"slippers"
 ];
 
 function randomItem(array) {

@@ -10,7 +10,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -23,7 +24,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -36,7 +38,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -49,7 +52,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -62,7 +66,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -75,7 +80,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -88,7 +94,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -101,7 +108,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -114,7 +122,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -127,7 +136,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -140,7 +150,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -153,7 +164,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -166,7 +178,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -179,7 +192,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -200,7 +214,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -213,7 +228,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -226,7 +242,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -239,7 +256,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -252,12 +270,14 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
+        "slippers"
       ]
     },
     {
@@ -270,7 +290,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -283,7 +304,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
@@ -296,7 +318,8 @@
         "clean-ear",
         "crack-eggs",
         "feed-cat",
-        "make-bed"
+        "make-bed",
+        "slippers"
       ]
     },
     {
