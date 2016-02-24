@@ -1049,7 +1049,7 @@
         "y": 550
       },
       "zindex": {
-        "zindex": 5
+        "zindex": 4
       },
       "image": {
         "name": "slippers-knees.png"
@@ -1062,6 +1062,9 @@
         "x": 280,
         "y": 550
       },
+      "zindex": {
+        "zindex": 2
+      },
       "image": {
         "name": "slippers-left-foot.png"
       }
@@ -1073,8 +1076,66 @@
         "x": 550,
         "y": 1600
       },
+      "zindex": {
+        "zindex": 2
+      },
       "image": {
         "name": "slippers-right-foot.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "left-slippper-bottom",
+      "position": {
+        "x": 700,
+        "y": 300
+      },
+      "size": {
+        "width": 638,
+        "height": 357
+      },
+      "zindex": {
+        "zindex": 1
+      },
+      "drag": {},
+      "snapToCenter": {
+        "target": 10,
+        "distance": 200,
+        "onSnap": "./scripts/stop-dragging"
+      },
+      "image": {
+        "name": "slippers-left-slipper-bottom.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "left-slippper-top",
+      "position": {
+        "x": 700,
+        "y": 300
+      },
+      "zindex": {
+        "zindex": 3
+      },
+      "match": {
+        "id": 8,
+        "offsetX": 350,
+        "offsetY": -65
+      },
+      "image": {
+        "name": "slippers-left-slipper-top.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "left-slippper-target",
+      "position": {
+        "x": 250,
+        "y": 530
+      },
+      "size": {
+        "width": 638,
+        "height": 357
       }
     }
   ]

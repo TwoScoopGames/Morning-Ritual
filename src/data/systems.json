@@ -169,6 +169,20 @@
       ]
     },
     {
+      "name": "splat-ecs/lib/systems/match-parent",
+      "scenes": [
+        "main",
+        "alarm",
+        "bacon",
+        "brush-teeth",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat",
+        "make-bed",
+        "slippers"
+      ]
+    },
+    {
       "name": "splat-ecs/lib/systems/match-center",
       "scenes": [
         "main",
