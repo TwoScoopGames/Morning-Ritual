@@ -1102,7 +1102,7 @@
       "snapToCenter": {
         "target": 10,
         "distance": 200,
-        "onSnap": "./scripts/stop-dragging"
+        "onSnap": "./scripts/stop-dragging-slippers"
       },
       "image": {
         "name": "slippers-left-slipper-bottom.png"
@@ -1158,7 +1158,7 @@
       "snapToCenter": {
         "target": 13,
         "distance": 200,
-        "onSnap": "./scripts/stop-dragging"
+        "onSnap": "./scripts/stop-dragging-slippers"
       },
       "image": {
         "name": "slippers-right-slipper-bottom.png"
