@@ -1098,6 +1098,7 @@
         "zindex": 1
       },
       "drag": {},
+      "failure": true,
       "snapToCenter": {
         "target": 10,
         "distance": 200,
@@ -1153,6 +1154,7 @@
         "zindex": 1
       },
       "drag": {},
+      "failure": true,
       "snapToCenter": {
         "target": 13,
         "distance": 200,
