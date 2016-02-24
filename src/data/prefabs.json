@@ -110,7 +110,6 @@
     }
   },
   "bed-cat-3": {
-    "id": 11,
     "name": "bed-cat-3",
     "position": {
       "x": 408,
@@ -129,6 +128,19 @@
       "loop": true,
       "speed": 1,
       "name": "bed-cat-3"
+    }
+  },
+  "bed-hole": {
+    "name": "bg",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "zindex": {
+      "zindex": 4
+    },
+    "image": {
+      "name": "makeBed-background-hole.png"
     }
   }
 }
