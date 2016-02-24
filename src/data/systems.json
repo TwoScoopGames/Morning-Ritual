@@ -291,7 +291,6 @@
     {
       "name": "splat-ecs/lib/systems/draw-rectangles",
       "scenes": [
-        "slippers"
       ]
     },
     {
