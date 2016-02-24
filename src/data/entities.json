@@ -644,7 +644,7 @@
         "game": {
           "running": false,
           "time": 0,
-          "max": 3000,
+          "max": 5000,
           "script": "./scripts/make-bed-outro"
         },
         "outro": {
@@ -672,6 +672,9 @@
       "position": {
         "x": 800,
         "y": 1500
+      },
+      "zindex": {
+        "zindex": 2
       },
       "size": {
         "width": 358,
@@ -707,6 +710,9 @@
         "x": 100,
         "y": 1500
       },
+      "zindex": {
+        "zindex": 2
+      },
       "size": {
         "width": 406,
         "height": 335
@@ -732,6 +738,43 @@
       "size": {
         "width": 406,
         "height": 335
+      }
+    },
+    {
+      "id": 9,
+      "name": "blanket",
+      "position": {
+        "x": 100,
+        "y": 1500
+      },
+      "zindex": {
+        "zindex": 1
+      },
+      "size": {
+        "width": 1104,
+        "height": 766
+      },
+      "image": {
+        "name": "makeBed-blanket.png"
+      },
+      "drag": {},
+      "failure": true,
+      "snapToCenter": {
+        "target": 10,
+        "distance": 200,
+        "onSnap": "./scripts/stop-dragging"
+      }
+    },
+    {
+      "id": 10,
+      "name": "blanket-target",
+      "position": {
+        "x": 210,
+        "y": 860
+      },
+      "size": {
+        "width": 1104,
+        "height": 766
       }
     }
   ],

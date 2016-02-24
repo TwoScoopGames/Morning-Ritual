@@ -73,6 +73,9 @@
       "x": 825,
       "y": 1118
     },
+    "zindex": {
+      "zindex": 3
+    },
     "size": {
       "width": 408,
       "height": 281
@@ -90,6 +93,9 @@
     "position": {
       "x": 990,
       "y": 818
+    },
+    "zindex": {
+      "zindex": 3
     },
     "size": {
       "width": 218,
@@ -109,6 +115,9 @@
     "position": {
       "x": 408,
       "y": 760
+    },
+    "zindex": {
+      "zindex": 3
     },
     "size": {
       "width": 226,
