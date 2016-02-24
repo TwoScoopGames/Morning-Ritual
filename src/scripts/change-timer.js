@@ -7,7 +7,9 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	if (frame < 6) {
 		game.entities.get(entity, "timers").changeTimer.running = true;
 		game.entities.get(entity, "timers").changeTimer.max = Math.floor(gameTimers.game.max / 7);
-		game.sounds.play("timer-tick");
+		if (frame > 1) {
+			game.sounds.play("timer-tick");
+		}
 	}
 	if (frame === 6) {
 		game.entities.set(entity, "animation", {
