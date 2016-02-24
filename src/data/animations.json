@@ -1,17 +1,4 @@
 {
-  "egg-rocket": [{
-    "filmstripFrames": 2,
-    "time": 1,
-    "properties": {
-      "image": {
-        "name": "egg-rocket",
-        "sourceX": 0,
-        "sourceY": 0,
-        "sourceWidth": 562,
-        "sourceHeight": 409
-      }
-    }
-  }],
   "alarm": [{
     "filmstripFrames": 7,
     "time": 30,
@@ -26,42 +13,103 @@
     }
   }],
   "bed-cat-1": [{
-	"filmstripFrames": 5,
-	"time": 150,
-	"properties": {
-	  "image": {
-		"name": "bed-cat-1-f5.png",
-		"sourceX": 0,
-		"sourceY": 0,
-		"sourceWidth": 2040,
-		"sourceHeight": 281
-	  }
-	}
+    "filmstripFrames": 5,
+    "time": 150,
+    "properties": {
+      "image": {
+        "name": "bed-cat-1-f5.png",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 2040,
+        "sourceHeight": 281
+      }
+    }
   }],
   "bed-cat-2": [{
-  "filmstripFrames": 9,
-  "time": 100,
-  "properties": {
-	"image": {
-	  "name": "bed-cat-2-f9.png",
-	  "sourceX": 0,
-	  "sourceY": 0,
-	  "sourceWidth": 1962,
-	  "sourceHeight": 322
-	}
-  }
+    "filmstripFrames": 9,
+    "time": 100,
+    "properties": {
+      "image": {
+        "name": "bed-cat-2-f9.png",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 1962,
+        "sourceHeight": 322
+      }
+    }
   }],
   "bed-cat-3": [{
-  "filmstripFrames": 9,
-  "time": 100,
-  "properties": {
-	"image": {
-	  "name": "bed-cat-3-f9.png",
-	  "sourceX": 0,
-	  "sourceY": 0,
-	  "sourceWidth": 2040,
-	  "sourceHeight": 267
-	}
-  }
+    "filmstripFrames": 9,
+    "time": 100,
+    "properties": {
+      "image": {
+        "name": "bed-cat-3-f9.png",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 2040,
+        "sourceHeight": 267
+      }
+    }
+  }],
+  "egg-rocket": [{
+    "filmstripFrames": 2,
+    "time": 1,
+    "properties": {
+      "image": {
+        "name": "egg-rocket",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 562,
+        "sourceHeight": 409
+      }
+    }
+  }],
+  "eyelashes": [{
+    "time": 300,
+    "properties": {
+      "image": {
+        "name": "eyelashes-f3.png",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 246,
+        "sourceHeight": 88
+      }
+    }
+  },
+  {
+    "time": 70,
+    "properties": {
+      "image": {
+        "name": "eyelashes-f3.png",
+        "sourceX": 246,
+        "sourceY": 0,
+        "sourceWidth": 246,
+        "sourceHeight": 88
+      }
+    }
+  },
+  {
+    "time": 70,
+    "properties": {
+      "image": {
+        "name": "eyelashes-f3.png",
+        "sourceX": 492,
+        "sourceY": 0,
+        "sourceWidth": 246,
+        "sourceHeight": 88
+      }
+    }
+  },
+  {
+    "time": 70,
+    "properties": {
+      "image": {
+        "name": "eyelashes-f3.png",
+        "sourceX": 246,
+        "sourceY": 0,
+        "sourceWidth": 246,
+        "sourceHeight": 88
+      }
+    }
   }]
 }

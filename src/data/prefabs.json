@@ -142,5 +142,52 @@
     "image": {
       "name": "makeBed-background-hole.png"
     }
+  },
+  "eyes": {
+    "name": "eyes",
+    "position": {
+      "x": 650,
+      "y": 1200
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "eyes.png"
+    }
+  },
+  "pupils": {
+    "name": "pupils",
+    "position": {
+      "x": 720,
+      "y": 1240
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "pupils.png"
+    }
+  },
+  "eyelashes": {
+    "name": "eyelashes",
+    "position": {
+      "x": 650,
+      "y": 1200
+    },
+    "size": {
+      "width": 246,
+      "height": 88
+    },
+    "zindex": {
+      "zindex": 6
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "eyelashes"
+    }
   }
 }

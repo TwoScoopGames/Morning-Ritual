@@ -9,5 +9,8 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 		game.instantiatePrefab("bed-cat-1");
 		game.instantiatePrefab("bed-cat-2");
 		game.instantiatePrefab("bed-cat-3");
+		game.sounds.play("cat-food2");
+	} else {
+		game.sounds.play("make-bed");
 	}
 };
