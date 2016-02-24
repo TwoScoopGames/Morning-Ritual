@@ -1137,6 +1137,61 @@
         "width": 638,
         "height": 357
       }
+    },
+    {
+      "id": 11,
+      "name": "right-slippper-bottom",
+      "position": {
+        "x": 700,
+        "y": 700
+      },
+      "size": {
+        "width": 640,
+        "height": 323
+      },
+      "zindex": {
+        "zindex": 1
+      },
+      "drag": {},
+      "snapToCenter": {
+        "target": 13,
+        "distance": 200,
+        "onSnap": "./scripts/stop-dragging"
+      },
+      "image": {
+        "name": "slippers-right-slipper-bottom.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "right-slippper-top",
+      "position": {
+        "x": 700,
+        "y": 300
+      },
+      "zindex": {
+        "zindex": 3
+      },
+      "match": {
+        "id": 11,
+        "offsetX": 470,
+        "offsetY": -90
+      },
+      "image": {
+        "name": "slippers-right-slipper-top.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "right-slippper-target",
+      "position": {
+        "x": 500,
+        "y": 1600
+      },
+      "size": {
+        "width": 640,
+        "height": 323
+      }
     }
   ]
 }
