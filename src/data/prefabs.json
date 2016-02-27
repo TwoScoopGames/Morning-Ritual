@@ -189,7 +189,7 @@
       "speed": 1,
       "name": "eyelashes"
     }
-},
+  },
   "life1": {
     "name": "life1",
     "life": true,
@@ -197,85 +197,85 @@
       "x": 70,
       "y": 20
     },
-	"size": {
+    "size": {
       "width": 156,
       "height": 249
     },
-	"zindex":{
-	"zindex": 5
-	},
-	"animation": {
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
       "time": 0,
       "frame": 0,
       "loop": true,
       "speed": 1,
       "name": "life"
     }
-},
-"life2": {
-  "name": "life2",
-  "life": true,
-  "position": {
-	"x": 306,
-	"y": 20
   },
-  "size": {
-	"width": 156,
-	"height": 249
+  "life2": {
+    "name": "life2",
+    "life": true,
+    "position": {
+      "x": 306,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
   },
-  "zindex":{
-  "zindex": 5
-	},
-  "animation": {
-	"time": 0,
-	"frame": 0,
-	"loop": true,
-	"speed": 1,
-	"name": "life"
+  "life3": {
+    "name": "life3",
+    "life": true,
+    "position": {
+      "x": 1110,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
+  },
+  "life4": {
+    "name": "life4",
+    "life": true,
+    "position": {
+      "x": 1340,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
   }
-},
-"life3": {
-  "name": "life3",
-  "life": true,
-  "position": {
-	"x": 1110,
-	"y": 20
-  },
-  "size": {
-	"width": 156,
-	"height": 249
-  },
-  "zindex":{
-  "zindex": 5
-	},
-  "animation": {
-	"time": 0,
-	"frame": 0,
-	"loop": true,
-	"speed": 1,
-	"name": "life"
-  }
-},
-"life4": {
-  "name": "life4",
-  "life": true,
-  "position": {
-	"x": 1340,
-	"y": 20
-  },
-  "size": {
-	"width": 156,
-	"height": 249
-  },
-  "zindex":{
-  "zindex": 5
-	},
-  "animation": {
-	"time": 0,
-	"frame": 0,
-	"loop": true,
-	"speed": 1,
-	"name": "life"
-  }
-}
 }
