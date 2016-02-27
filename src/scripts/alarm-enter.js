@@ -12,6 +12,8 @@ module.exports = function(game) {
 	game.entities.set(button, "onPress", {
 		"script": "./scripts/right-button"
 	});
+	game.sounds.stop("music4");
+	game.sounds.play("alarm", true);
 
 	var lives = game.arguments.lives;
 	if (lives === 4) {

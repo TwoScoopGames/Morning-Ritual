@@ -5,7 +5,8 @@
   "onExit": "./scripts/main-exit"
  },
  "alarm": {
-  "onEnter": "./scripts/alarm-enter"
+  "onEnter": "./scripts/alarm-enter",
+  "onExit": "./scripts/alarm-exit"
  },
  "bacon": {
 	"onEnter": "./scripts/add-lives"
