@@ -42,5 +42,6 @@
 	"radio-track-3":"./sounds/radio-track-3.mp3",
 	"radio-track-4":"./sounds/radio-track-4.mp3",
 	"radio-track-5":"./sounds/radio-track-5.mp3",
-	"robot": "./sounds/198970__thehorriblejoke__robotness.mp3"
+	"robot": "./sounds/198970__thehorriblejoke__robotness.mp3",
+	"clock-melt": "./sounds/200288__ady-vornicu__gretzos2.mp3"
 }
