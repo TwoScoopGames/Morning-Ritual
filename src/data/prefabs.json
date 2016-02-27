@@ -277,5 +277,15 @@
       "speed": 1,
       "name": "life"
     }
+  },
+  "alarm-melted": {
+    "name": "alarm-melted",
+    "position": {
+      "x": 200,
+      "y": 650
+    },
+    "image": {
+      "name": "alarm-clock-melted.png"
+    }
   }
 }
