@@ -36,5 +36,10 @@
 	"water-plant":"./sounds/Morning_Water_Plant1.mp3",
 	"water-plant2":"./sounds/Morning_Water_Plant2.mp3",
 	"water-plant3":"./sounds/Morning_Water_Plant3.mp3",
-	"wax-legs":"./sounds/Foley_Wax_Legs_1.mp3"
+	"wax-legs":"./sounds/Foley_Wax_Legs_1.mp3",
+	"radio-track-1":"./sounds/radio-track-1.mp3",
+	"radio-track-2":"./sounds/radio-track-2.mp3",
+	"radio-track-3":"./sounds/radio-track-3.mp3",
+	"radio-track-4":"./sounds/radio-track-4.mp3",
+	"radio-track-5":"./sounds/radio-track-5.mp3"
 }
