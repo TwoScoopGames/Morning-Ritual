@@ -847,130 +847,151 @@
     },
     {
       "id": 5,
-      "name": "button1",
-      "button": true,
+      "name": "clock",
       "position": {
-        "x": 360,
-        "y": 880
+        "x": 200,
+        "y": 700
       },
-      "size": {
-        "width": 170,
-        "height": 90
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
+      "image": {
+        "name": "alarm-clock-clock.png"
       }
     },
     {
       "id": 6,
-      "name": "button2",
+      "name": "button1",
       "button": true,
       "position": {
-        "x": 760,
-        "y": 890
+        "x": 270,
+        "y": 750
       },
       "size": {
-        "width": 120,
-        "height": 60
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
+      },
+      "onRelease": {
+        "script": "./scripts/reset-button"
+      },
+      "image": {
+        "name": "alarm-clock-button-purple-f2.png",
+        "sourceWidth": 305
       }
     },
     {
       "id": 7,
-      "name": "button3",
+      "name": "button2",
       "button": true,
       "position": {
-        "x": 980,
-        "y": 880
+        "x": 621,
+        "y": 750
       },
       "size": {
-        "width": 410,
-        "height": 100
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
+      },
+      "onRelease": {
+        "script": "./scripts/reset-button"
+      },
+      "image": {
+        "name": "alarm-clock-button-red-f2.png",
+        "sourceWidth": 305
       }
     },
     {
       "id": 8,
-      "name": "button4",
+      "name": "button3",
       "button": true,
       "position": {
-        "x": 530,
-        "y": 950
+        "x": 972,
+        "y": 750
       },
       "size": {
-        "width": 170,
-        "height": 80
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
+      },
+      "onRelease": {
+        "script": "./scripts/reset-button"
+      },
+      "image": {
+        "name": "alarm-clock-button-blue-f2.png",
+        "sourceWidth": 305
       }
     },
     {
       "id": 9,
-      "name": "button5",
+      "name": "button4",
       "button": true,
       "position": {
-        "x": 750,
-        "y": 990
+        "x": 270,
+        "y": 959
       },
       "size": {
-        "width": 130,
-        "height": 70
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
+      },
+      "onRelease": {
+        "script": "./scripts/reset-button"
+      },
+      "image": {
+        "name": "alarm-clock-button-green-f2.png",
+        "sourceWidth": 305
       }
     },
     {
       "id": 10,
-      "name": "button6",
+      "name": "button5",
       "button": true,
       "position": {
-        "x": 930,
-        "y": 1010
+        "x": 621,
+        "y": 959
       },
       "size": {
-        "width": 290,
-        "height": 80
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
+      },
+      "onRelease": {
+        "script": "./scripts/reset-button"
+      },
+      "image": {
+        "name": "alarm-clock-button-olive-f2.png",
+        "sourceWidth": 305
       }
     },
     {
       "id": 11,
-      "name": "button7",
+      "name": "button6",
       "button": true,
       "position": {
-        "x": 230,
-        "y": 1050
+        "x": 972,
+        "y": 959
       },
       "size": {
-        "width": 170,
-        "height": 50
+        "width": 305,
+        "height": 190
       },
       "onPress": {
         "script": "./scripts/wrong-button"
-      }
-    },
-    {
-      "id": 12,
-      "name": "button8",
-      "button": true,
-      "position": {
-        "x": 420,
-        "y": 1050
       },
-      "size": {
-        "width": 170,
-        "height": 50
+      "onRelease": {
+        "script": "./scripts/reset-button"
       },
-      "onPress": {
-        "script": "./scripts/wrong-button"
+      "image": {
+        "name": "alarm-clock-button-yellow-f2.png",
+        "sourceWidth": 305
       }
     }
   ],

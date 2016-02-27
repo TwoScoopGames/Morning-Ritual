@@ -14,11 +14,11 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		var size = game.entities.get(entity, "size");
 		var mx = game.input.mouse.x + cameraPosition.x;
 		var my = game.input.mouse.y + cameraPosition.y;
-		if (game.input.buttonPressed("action")
-				&& mx >= position.x
-				&& mx < position.x + size.width
-				&& my >= position.y
-				&& my < position.y + size.height
+		if (game.input.buttonReleased("action")
+				|| mx < position.x
+				|| mx >= position.x + size.width
+				|| my < position.y
+				|| my >= position.y + size.height
 				) {
 			var onRelease = game.entities.get(entity, "onRelease");
 			var script = game.require(onRelease.script);
