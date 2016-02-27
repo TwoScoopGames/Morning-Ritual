@@ -114,7 +114,7 @@
   }],
   "life": [{
 	"filmstripFrames": 3,
-	"time": 30,
+	"time": 300,
 	"properties": {
 	  "image": {
 		"name": "life",
