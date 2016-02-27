@@ -51,6 +51,19 @@
       }
     }
   }],
+  "buttons-flashing": [{
+    "filmstripFrames": 2,
+    "time": 100,
+    "properties": {
+      "image": {
+        "name": "alarm-clock-buttons-flashing-f2.png",
+        "sourceX": 0,
+        "sourceY": 0,
+        "sourceWidth": 2018,
+        "sourceHeight": 401
+      }
+    }
+  }],
   "egg-rocket": [{
     "filmstripFrames": 2,
     "time": 1,

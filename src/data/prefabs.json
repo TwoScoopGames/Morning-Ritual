@@ -287,5 +287,23 @@
     "image": {
       "name": "alarm-clock-melted.png"
     }
+  },
+  "buttons-flashing": {
+    "name": "buttons-flashing",
+    "position": {
+      "x": 270,
+      "y": 750
+    },
+    "size": {
+      "width": 1009,
+      "height": 401
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "buttons-flashing"
+    }
   }
 }
