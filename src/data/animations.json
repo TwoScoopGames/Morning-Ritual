@@ -111,5 +111,18 @@
         "sourceHeight": 88
       }
     }
+  }],
+  "life": [{
+	"filmstripFrames": 3,
+	"time": 30,
+	"properties": {
+	  "image": {
+		"name": "life",
+		"sourceX": 0,
+		"sourceY": 0,
+		"sourceWidth": 468,
+		"sourceHeight": 249
+	  }
+	}
   }]
 }

@@ -8,17 +8,24 @@
   "onEnter": "./scripts/alarm-enter"
  },
  "bacon": {
+	"onEnter": "./scripts/add-lives"
  },
  "brush-teeth": {
+	 "onEnter": "./scripts/add-lives"
  },
  "clean-ear": {
+	 "onEnter": "./scripts/add-lives"
  },
  "crack-eggs": {
+	 "onEnter": "./scripts/add-lives"
  },
  "feed-cat": {
+	 "onEnter": "./scripts/add-lives"
  },
  "make-bed": {
+	 "onEnter": "./scripts/add-lives"
  },
  "slippers": {
+	 "onEnter": "./scripts/add-lives"
  }
 }

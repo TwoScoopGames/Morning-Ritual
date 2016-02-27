@@ -21,5 +21,18 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	console.log(failure ? "failure" : "success");
 	var scene = randomItem(games);
 	console.log(scene);
-	game.switchScene(scene);
+	console.log(game);
+	var lives = game.arguments.lives;
+	if (lives === undefined) {
+		lives = 4;
+	}
+	console.log(lives, "lives (next scene)");
+	if (failure) {
+		lives--;
+	}
+	if (lives === 0) {
+		game.switchScene("main");
+	} else {
+		game.switchScene(scene, { "lives": lives });
+	}
 };
