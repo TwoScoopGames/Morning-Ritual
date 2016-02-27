@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
-	game.entities.registerSearch("apply-on-tap", ["onTap", "position", "size"]);
+	game.entities.registerSearch("apply-on-release", ["onRelease", "position", "size"]);
 	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
 		if (game.entities.find("intro").length > 0 || game.entities.find("outro").length > 0) {
 			return;
@@ -20,9 +20,9 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 				&& my >= position.y
 				&& my < position.y + size.height
 				) {
-			var onTap = game.entities.get(entity, "onTap");
-			var script = game.require(onTap.script);
+			var onRelease = game.entities.get(entity, "onRelease");
+			var script = game.require(onRelease.script);
 			script(entity, game);
 		}
-	}, "apply-on-tap");
+	}, "apply-on-release");
 };

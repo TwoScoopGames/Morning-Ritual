@@ -43,7 +43,21 @@
       ]
     },
     {
-      "name": "./systems/simulation/on-tap",
+      "name": "./systems/simulation/on-press",
+      "scenes": [
+        "main",
+        "alarm",
+        "bacon",
+        "brush-teeth",
+        "clean-ear",
+        "crack-eggs",
+        "feed-cat",
+        "make-bed",
+        "slippers"
+      ]
+    },
+    {
+      "name": "./systems/simulation/on-release",
       "scenes": [
         "main",
         "alarm",

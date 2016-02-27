@@ -147,7 +147,7 @@
         "width": 230,
         "height": 283
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/crack-egg"
       },
       "image": {
@@ -166,7 +166,7 @@
         "width": 230,
         "height": 283
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/crack-egg"
       },
       "image": {
@@ -185,7 +185,7 @@
         "width": 230,
         "height": 283
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/crack-egg"
       },
       "image": {
@@ -292,7 +292,7 @@
       "image": {
         "name": "feed-catFoodBag.png"
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/feed-cat"
       },
       "timers": {
@@ -857,7 +857,7 @@
         "width": 170,
         "height": 90
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -873,7 +873,7 @@
         "width": 120,
         "height": 60
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -889,7 +889,7 @@
         "width": 410,
         "height": 100
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -905,7 +905,7 @@
         "width": 170,
         "height": 80
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -921,7 +921,7 @@
         "width": 130,
         "height": 70
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -937,7 +937,7 @@
         "width": 290,
         "height": 80
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -953,7 +953,7 @@
         "width": 170,
         "height": 50
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     },
@@ -969,7 +969,7 @@
         "width": 170,
         "height": 50
       },
-      "onTap": {
+      "onPress": {
         "script": "./scripts/wrong-button"
       }
     }
