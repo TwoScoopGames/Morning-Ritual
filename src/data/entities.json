@@ -823,7 +823,7 @@
         "game": {
           "running": false,
           "time": 0,
-          "max": 3000,
+          "max": 10000,
           "script": "./scripts/alarm-outro"
         },
         "outro": {

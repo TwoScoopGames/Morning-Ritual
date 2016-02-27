@@ -9,7 +9,7 @@ module.exports = function(game) {
 	var button = randomItem(game.entities.find("button"));
 	console.log("button", game.entities.get(button, "name"));
 	game.entities.set(button, "failure", true);
-	game.entities.set(button, "onTap", {
+	game.entities.set(button, "onPress", {
 		"script": "./scripts/right-button"
 	});
 
