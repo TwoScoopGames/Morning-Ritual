@@ -8,7 +8,7 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 		game.entities.get(entity, "timers").changeTimer.running = true;
 		game.entities.get(entity, "timers").changeTimer.max = Math.floor(gameTimers.game.max / 7);
 		if (frame > 1) {
-			game.sounds.play("timer-tick");
+			game.sounds.play("Morning_Ritual_Clock_Click.mp3");
 		}
 	}
 	if (frame === 6) {
@@ -19,7 +19,7 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 			"speed": 1,
 			"name": "alarm"
 		});
-		game.sounds.play("timer-alarm");
+		game.sounds.play("Morning_Ritual_Clock_Bell.mp3");
 	}
 
 	game.entities.get(entity, "image").name = "alarm" + frame + ".png";

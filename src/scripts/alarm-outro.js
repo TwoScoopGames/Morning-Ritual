@@ -6,7 +6,7 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	var failed = game.entities.find("failure").length > 0;
 
 	if (failed) {
-		game.sounds.play("clock-melt");
+		game.sounds.play("200288__ady-vornicu__gretzos2.mp3");
 		game.entities.find("button").slice().forEach(function(button) {
 			game.entities.destroy(button);
 		});

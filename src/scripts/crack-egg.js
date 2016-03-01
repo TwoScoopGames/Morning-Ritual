@@ -10,12 +10,11 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 		game.entities.set(entity, "image", {
 			"name": "egg-dino.png"
 		});
-		game.sounds.play("egg-dino");
+		game.sounds.play("Foley_Crack_Eggs_2.mp3");
 	} else {
 		game.entities.set(entity, "image", {
 			"name": "egg-cracked.png"
 		});
-		game.sounds.play("egg-crack");
+		game.sounds.play("Foley_Crack_Eggs_1.mp3");
 	}
-
 };

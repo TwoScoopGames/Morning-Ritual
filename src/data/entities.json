@@ -40,7 +40,7 @@
         "height": 1901
       },
       "image":{
-        "name":"curtain"
+        "name":"title-curtain.png"
       },
       "timers": {
         "pull": {
@@ -64,7 +64,7 @@
         "height": 1299
       },
       "image":{
-        "name":"logo"
+        "name":"logo.png"
       }
     }
   ],

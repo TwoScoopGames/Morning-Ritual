@@ -19,7 +19,6 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 		failures = true;
 	});
 	if (failures) {
-		game.sounds.play("egg-rocket");
-		console.log("play sound");
+		game.sounds.play("Morning_Ritual_Egg_Rocket.mp3");
 	}
 };
