@@ -18,6 +18,14 @@ var localSystemRequire = require.context("./systems", true, /\.js$/);
 var localScriptPath = "./scripts";
 var localScriptRequire = require.context("./scripts", true, /\.js$/);
 
+function generateManifest(files, folder) {
+	return files.reduce(function(manifest, file) {
+		var basename = file.substr(2);
+		manifest[basename] = folder + "/" + basename;
+		return manifest;
+	}, {});
+}
+
 var imageContext = require.context("./images", true, /\.(jpe?g|png|gif|svg)$/i);
 var imageManifest = generateManifest(imageContext.keys(), "images");
 
@@ -52,14 +60,6 @@ function customRequire(path) {
 	}
 	console.error("Unable to load module: \"", path, "\"");
 	return undefined;
-}
-
-function generateManifest(files, folder) {
-	return files.reduce(function(manifest, file) {
-		var basename = file.substr(2);
-		manifest[basename] = folder + "/" + basename;
-		return manifest;
-	}, {});
 }
 
 var game = new Splat.Game(canvas, customRequire);
