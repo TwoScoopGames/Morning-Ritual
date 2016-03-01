@@ -4,6 +4,7 @@ var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 
 var Splat = require("splat-ecs");
+require("./index.html");
 
 // This is some webpack magic to ensure the dynamically required scripts are loaded
 
@@ -60,9 +61,6 @@ function generateManifest(files, folder) {
 		return manifest;
 	}, {});
 }
-
-require("./index.html");
-
 
 var game = new Splat.Game(canvas, customRequire);
 
