@@ -1,11 +1,12 @@
 {
- "action": {
-  "type": "button",
-  "inputs": [
-   {
-    "device": "mouse",
-    "button": 0
-   }
-  ]
- }
+	"axes": {
+	},
+	"buttons": {
+		"action": [
+		{
+			"device": "mouse",
+			"button": 0
+		}
+	]
+	}
 }

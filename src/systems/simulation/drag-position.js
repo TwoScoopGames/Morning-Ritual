@@ -12,8 +12,8 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 
 		var position = game.entities.get(entity, "position");
 		var size = game.entities.get(entity, "size");
-		var mx = game.input.mouse.x + cameraPosition.x;
-		var my = game.input.mouse.y + cameraPosition.y;
+		var mx = game.inputs.mouse.x + cameraPosition.x;
+		var my = game.inputs.mouse.y + cameraPosition.y;
 		var drag = game.entities.get(entity, "drag");
 
 		var inside = mx >= position.x
@@ -21,13 +21,13 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 				&& my >= position.y
 				&& my < position.y + size.height;
 
-		if (game.input.buttonPressed("action") && inside) {
+		if (game.inputs.buttonPressed("action") && inside) {
 			drag.offsetX = position.x - mx;
 			drag.offsetY = position.y - my;
-		} else if (game.input.button("action") && drag.offsetX !== undefined && drag.offsetY !== undefined) {
+		} else if (game.inputs.button("action") && drag.offsetX !== undefined && drag.offsetY !== undefined) {
 			position.x = mx + drag.offsetX;
 			position.y = my + drag.offsetY;
-		} else if (game.input.buttonReleased("action")) {
+		} else if (game.inputs.buttonReleased("action")) {
 			delete drag.offsetX;
 			delete drag.offsetY;
 		}

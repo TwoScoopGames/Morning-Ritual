@@ -1,1220 +1,1380 @@
 {
-  "main": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "bg-color":"#0d2342",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 7,
-      "name": "curtain",
-      "curtain": true,
-      "position": {
-        "x": 0,
-        "y": -180
-      },
-      "size": {
-        "width": 1536,
-        "height": 1901
-      },
-      "image":{
-        "name":"curtain"
-      },
-      "timers": {
-        "pull": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 8,
-      "name": "logo",
-      "logo": true,
-      "position": {
-        "x": 150,
-        "y": 50
-      },
-      "size": {
-        "width": 1299,
-        "height": 1299
-      },
-      "image":{
-        "name":"logo"
-      }
-    }
-  ],
-  "crack-eggs": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Make breakfast!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/crack-egg-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "eggs-background.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "egg1",
-      "failure": true,
-      "position": {
-        "x": 200,
-        "y": 1300
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onPress": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    },
-    {
-      "id": 6,
-      "name": "egg2",
-      "failure": true,
-      "position": {
-        "x": 700,
-        "y": 1100
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onPress": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    },
-    {
-      "id": 7,
-      "name": "egg3",
-      "failure": true,
-      "position": {
-        "x": 1100,
-        "y": 1300
-      },
-      "size": {
-        "width": 230,
-        "height": 283
-      },
-      "onPress": {
-        "script": "./scripts/crack-egg"
-      },
-      "image": {
-        "name": "egg.png"
-      }
-    }
-  ],
-  "feed-cat": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Feed Mittens!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/feed-cat-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "feed-background.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "cat-face",
-      "catFace": true,
-      "failure": true,
-      "position": {
-        "x": 800,
-        "y": 900
-      },
-      "image": {
-        "name": "feed-catFace1.png"
-      }
-    },
-    {
-      "id": 6,
-      "name": "cat-food-bag",
-      "position": {
-        "x": 0,
-        "y": 400
-      },
-      "size": {
-        "width": 449,
-        "height": 559
-      },
-      "rotation": {
-        "x": 100,
-        "y": 100,
-        "angle": 0.0
-      },
-      "image": {
-        "name": "feed-catFoodBag.png"
-      },
-      "onPress": {
-        "script": "./scripts/feed-cat"
-      },
-      "timers": {
-        "unrotateFood": {
-          "running": false,
-          "time": 0,
-          "max": 300,
-          "script": "./scripts/unrotate-food"
-        }
-      }
-    }
-  ],
-  "clean-ear": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "bg-color":"#0d2342",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Clean your ear!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/clean-ear-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "ear.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "q-tip",
-      "failure": true,
-      "position": {
-        "x": 500,
-        "y": 800
-      },
-      "size": {
-        "width": 2000,
-        "height": 400
-      },
-      "slideX": {
-        "min": -300,
-        "max": 700,
-        "onLeft": "./scripts/q-tip-left"
-      },
-      "image": {
-        "name": "q-tip.png",
-        "destinationY": 50,
-        "destinationWidth": 1895,
-        "destinationHeight": 317
-      }
-    },
-    {
-      "id": 6,
-      "name": "ear-lobe",
-      "position": {
-        "x": 0,
-        "y": 650
-      },
-      "zindex": {
-        "zindex": 10
-      },
-      "size": {
-        "width": 179,
-        "height": 599
-      },
-      "image": {
-        "name": "ear-lobe.png"
-      }
-    }
-  ],
-  "brush-teeth": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "bg-color":"#dbc495",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Brush your teeth!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/brush-teeth-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 560
-      },
-      "image": {
-        "name": "brush-teeth-1.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "toothbrush",
-      "failure": true,
-      "position": {
-        "x": 500,
-        "y": 1300
-      },
-      "size": {
-        "width": 2000,
-        "height": 400
-      },
-      "slideX": {
-        "min": 100,
-        "max": 950,
-        "onLeft": "./scripts/tooth-brush-left"
-      },
-      "image": {
-        "name": "tooth-brush.png",
-        "destinationY": 50,
-        "destinationWidth": 1502,
-        "destinationHeight": 331
-      }
-    }
-  ],
-  "bacon": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "bg-color":"#dbc495",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Fry bacon!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/bacon-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "Bacon-background-07.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "pan",
-      "failure": true,
-      "position": {
-        "x": 450,
-        "y": 500
-      },
-      "size": {
-        "width": 1211,
-        "height": 746
-      },
-      "slideX": {
-        "min": 30,
-        "max": 450,
-        "onLeft": "./scripts/bacon-left"
-      },
-      "image": {
-        "name": "bacon-pan1.png"
-      }
-    }
-  ],
-  "make-bed": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Make bed!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 5000,
-          "script": "./scripts/make-bed-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "makeBed-background.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "pillow1",
-      "position": {
-        "x": 800,
-        "y": 1500
-      },
-      "zindex": {
-        "zindex": 2
-      },
-      "size": {
-        "width": 358,
-        "height": 244
-      },
-      "image": {
-        "name": "makeBed-pillow.png"
-      },
-      "drag": {},
-      "failure": true,
-      "snapToCenter": {
-        "target": 6,
-        "distance": 200,
-        "onSnap": "./scripts/stop-dragging"
-      }
-    },
-    {
-      "id": 6,
-      "name": "pillow1-target",
-      "position": {
-        "x": 350,
-        "y": 660
-      },
-      "size": {
-        "width": 358,
-        "height": 244
-      }
-    },
-    {
-      "id": 7,
-      "name": "pillow2",
-      "position": {
-        "x": 100,
-        "y": 1500
-      },
-      "zindex": {
-        "zindex": 2
-      },
-      "size": {
-        "width": 406,
-        "height": 335
-      },
-      "image": {
-        "name": "makeBed-pillow2.png"
-      },
-      "drag": {},
-      "failure": true,
-      "snapToCenter": {
-        "target": 8,
-        "distance": 200,
-        "onSnap": "./scripts/stop-dragging"
-      }
-    },
-    {
-      "id": 8,
-      "name": "pillow2-target",
-      "position": {
-        "x": 800,
-        "y": 600
-      },
-      "size": {
-        "width": 406,
-        "height": 335
-      }
-    },
-    {
-      "id": 9,
-      "name": "blanket",
-      "position": {
-        "x": 100,
-        "y": 1500
-      },
-      "zindex": {
-        "zindex": 1
-      },
-      "size": {
-        "width": 1104,
-        "height": 766
-      },
-      "image": {
-        "name": "makeBed-blanket.png"
-      },
-      "drag": {},
-      "failure": true,
-      "snapToCenter": {
-        "target": 10,
-        "distance": 200,
-        "onSnap": "./scripts/stop-dragging"
-      }
-    },
-    {
-      "id": 10,
-      "name": "blanket-target",
-      "position": {
-        "x": 210,
-        "y": 860
-      },
-      "size": {
-        "width": 1104,
-        "height": 766
-      }
-    }
-  ],
-  "alarm": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Snooze!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 10000,
-          "script": "./scripts/alarm-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "alarm-clock.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "clock",
-      "position": {
-        "x": 200,
-        "y": 700
-      },
-      "image": {
-        "name": "alarm-clock-clock.png"
-      }
-    },
-    {
-      "id": 6,
-      "name": "button1",
-      "button": true,
-      "position": {
-        "x": 270,
-        "y": 750
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-purple-f2.png",
-        "sourceWidth": 305
-      }
-    },
-    {
-      "id": 7,
-      "name": "button2",
-      "button": true,
-      "position": {
-        "x": 621,
-        "y": 750
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-red-f2.png",
-        "sourceWidth": 305
-      }
-    },
-    {
-      "id": 8,
-      "name": "button3",
-      "button": true,
-      "position": {
-        "x": 972,
-        "y": 750
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-blue-f2.png",
-        "sourceWidth": 305
-      }
-    },
-    {
-      "id": 9,
-      "name": "button4",
-      "button": true,
-      "position": {
-        "x": 270,
-        "y": 959
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-green-f2.png",
-        "sourceWidth": 305
-      }
-    },
-    {
-      "id": 10,
-      "name": "button5",
-      "button": true,
-      "position": {
-        "x": 621,
-        "y": 959
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-olive-f2.png",
-        "sourceWidth": 305
-      }
-    },
-    {
-      "id": 11,
-      "name": "button6",
-      "button": true,
-      "position": {
-        "x": 972,
-        "y": 959
-      },
-      "size": {
-        "width": 305,
-        "height": 190
-      },
-      "onPress": {
-        "script": "./scripts/wrong-button"
-      },
-      "onRelease": {
-        "script": "./scripts/reset-button"
-      },
-      "image": {
-        "name": "alarm-clock-button-yellow-f2.png",
-        "sourceWidth": 305
-      }
-    }
-  ],
-  "slippers": [
-    {
-      "id": 0,
-      "name": "camera",
-      "camera": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "matchCanvasSize": true,
-      "matchCenter": {
-        "id": 1
-      }
-    },
-    {
-      "id": 1,
-      "name": "viewport",
-      "viewPort": true,
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 1532,
-        "height": 2048
-      }
-    },
-    {
-      "id": 2,
-      "name": "game-timer",
-      "intro": "Slipper up!",
-      "position": {
-        "x": 300,
-        "y": 800
-      },
-      "timers": {
-        "intro": {
-          "running": true,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/start-game"
-        },
-        "game": {
-          "running": false,
-          "time": 0,
-          "max": 3000,
-          "script": "./scripts/slippers-outro"
-        },
-        "outro": {
-          "running": false,
-          "time": 0,
-          "max": 1000,
-          "script": "./scripts/next-scene"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "name": "bg",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "image": {
-        "name": "slippers-bg.png"
-      }
-    },
-    {
-      "id": 5,
-      "name": "knees",
-      "position": {
-        "x": -100,
-        "y": 550
-      },
-      "zindex": {
-        "zindex": 4
-      },
-      "image": {
-        "name": "slippers-knees.png"
-      }
-    },
-    {
-      "id": 6,
-      "name": "left-foot",
-      "position": {
-        "x": 280,
-        "y": 550
-      },
-      "zindex": {
-        "zindex": 2
-      },
-      "image": {
-        "name": "slippers-left-foot.png"
-      }
-    },
-    {
-      "id": 7,
-      "name": "right-foot",
-      "position": {
-        "x": 550,
-        "y": 1600
-      },
-      "zindex": {
-        "zindex": 2
-      },
-      "image": {
-        "name": "slippers-right-foot.png"
-      }
-    },
-    {
-      "id": 8,
-      "name": "left-slippper-bottom",
-      "position": {
-        "x": 700,
-        "y": 300
-      },
-      "size": {
-        "width": 638,
-        "height": 357
-      },
-      "zindex": {
-        "zindex": 1
-      },
-      "drag": {},
-      "failure": true,
-      "snapToCenter": {
-        "target": 10,
-        "distance": 200,
-        "onSnap": "./scripts/stop-dragging-slippers"
-      },
-      "image": {
-        "name": "slippers-left-slipper-bottom.png"
-      }
-    },
-    {
-      "id": 9,
-      "name": "left-slippper-top",
-      "position": {
-        "x": 700,
-        "y": 300
-      },
-      "zindex": {
-        "zindex": 3
-      },
-      "match": {
-        "id": 8,
-        "offsetX": 350,
-        "offsetY": -65
-      },
-      "image": {
-        "name": "slippers-left-slipper-top.png"
-      }
-    },
-    {
-      "id": 10,
-      "name": "left-slippper-target",
-      "position": {
-        "x": 250,
-        "y": 530
-      },
-      "size": {
-        "width": 638,
-        "height": 357
-      }
-    },
-    {
-      "id": 11,
-      "name": "right-slippper-bottom",
-      "position": {
-        "x": 700,
-        "y": 700
-      },
-      "size": {
-        "width": 640,
-        "height": 323
-      },
-      "zindex": {
-        "zindex": 1
-      },
-      "drag": {},
-      "failure": true,
-      "snapToCenter": {
-        "target": 13,
-        "distance": 200,
-        "onSnap": "./scripts/stop-dragging-slippers"
-      },
-      "image": {
-        "name": "slippers-right-slipper-bottom.png"
-      }
-    },
-    {
-      "id": 12,
-      "name": "right-slippper-top",
-      "position": {
-        "x": 700,
-        "y": 300
-      },
-      "zindex": {
-        "zindex": 3
-      },
-      "match": {
-        "id": 11,
-        "offsetX": 470,
-        "offsetY": -90
-      },
-      "image": {
-        "name": "slippers-right-slipper-top.png"
-      }
-    },
-    {
-      "id": 13,
-      "name": "right-slippper-target",
-      "position": {
-        "x": 500,
-        "y": 1600
-      },
-      "size": {
-        "width": 640,
-        "height": 323
-      }
-    }
-  ]
+	"main": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"bg-color": "#0d2342",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 7,
+		"name": "curtain",
+		"curtain": true,
+		"position": {
+			"x": 0,
+			"y": -180
+		},
+		"size": {
+			"width": 1536,
+			"height": 1901
+		},
+		"image": {
+			"name": "title-curtain.png"
+		},
+		"timers": {
+			"pull": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 8,
+		"name": "logo",
+		"logo": true,
+		"position": {
+			"x": 150,
+			"y": 50
+		},
+		"size": {
+			"width": 1299,
+			"height": 1299
+		},
+		"image": {
+			"name": "logo.png"
+		}
+	}, {
+		"id": 9,
+		"name": "play-button",
+		"position": {
+			"x": 1020,
+			"y": 1500
+		},
+		"size": {
+			"width": 440,
+			"height": 476
+		},
+		"image": {
+			"name": "play-button.png"
+		}
+	}],
+	"crack-eggs": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Make breakfast!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/crack-egg-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "eggs-background.png"
+		}
+	}, {
+		"id": 5,
+		"name": "egg1",
+		"failure": true,
+		"position": {
+			"x": 200,
+			"y": 1300
+		},
+		"size": {
+			"width": 230,
+			"height": 283
+		},
+		"onPress": {
+			"script": "./scripts/crack-egg"
+		},
+		"image": {
+			"name": "egg.png"
+		}
+	}, {
+		"id": 6,
+		"name": "egg2",
+		"failure": true,
+		"position": {
+			"x": 700,
+			"y": 1100
+		},
+		"size": {
+			"width": 230,
+			"height": 283
+		},
+		"onPress": {
+			"script": "./scripts/crack-egg"
+		},
+		"image": {
+			"name": "egg.png"
+		}
+	}, {
+		"id": 7,
+		"name": "egg3",
+		"failure": true,
+		"position": {
+			"x": 1100,
+			"y": 1300
+		},
+		"size": {
+			"width": 230,
+			"height": 283
+		},
+		"onPress": {
+			"script": "./scripts/crack-egg"
+		},
+		"image": {
+			"name": "egg.png"
+		}
+	}],
+	"feed-cat": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Feed Mittens!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/feed-cat-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "feed-background.png"
+		}
+	}, {
+		"id": 5,
+		"name": "cat-face",
+		"catFace": true,
+		"failure": true,
+		"position": {
+			"x": 800,
+			"y": 900
+		},
+		"image": {
+			"name": "feed-catFace1.png"
+		}
+	}, {
+		"id": 6,
+		"name": "cat-food-bag",
+		"position": {
+			"x": 0,
+			"y": 400
+		},
+		"size": {
+			"width": 449,
+			"height": 559
+		},
+		"rotation": {
+			"x": 100,
+			"y": 100,
+			"angle": 0.0
+		},
+		"image": {
+			"name": "feed-catFoodBag.png"
+		},
+		"onPress": {
+			"script": "./scripts/feed-cat"
+		},
+		"timers": {
+			"unrotateFood": {
+				"running": false,
+				"time": 0,
+				"max": 300,
+				"script": "./scripts/unrotate-food"
+			}
+		}
+	}],
+	"feed-grandma": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Feed grandma!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/feed-cat-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "feed-background.png"
+		}
+	}, {
+		"id": 5,
+		"name": "cat-face",
+		"catFace": true,
+		"failure": true,
+		"position": {
+			"x": 800,
+			"y": 900
+		},
+		"image": {
+			"name": "feed-catFace1.png"
+		}
+	}, {
+		"id": 6,
+		"name": "cat-food-bag",
+		"position": {
+			"x": 0,
+			"y": 400
+		},
+		"size": {
+			"width": 449,
+			"height": 559
+		},
+		"rotation": {
+			"x": 100,
+			"y": 100,
+			"angle": 0.0
+		},
+		"image": {
+			"name": "feed-grandmaFoodBag.png"
+		},
+		"onPress": {
+			"script": "./scripts/feed-cat"
+		},
+		"timers": {
+			"unrotateFood": {
+				"running": false,
+				"time": 0,
+				"max": 300,
+				"script": "./scripts/unrotate-food"
+			}
+		}
+	}],
+	"feed-dog": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Feed the dog!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/feed-cat-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "feed-background.png"
+		}
+	}, {
+		"id": 5,
+		"name": "cat-face",
+		"catFace": true,
+		"failure": true,
+		"position": {
+			"x": 800,
+			"y": 900
+		},
+		"image": {
+			"name": "feed-catFace1.png"
+		}
+	}, {
+		"id": 6,
+		"name": "cat-food-bag",
+		"position": {
+			"x": 0,
+			"y": 400
+		},
+		"size": {
+			"width": 449,
+			"height": 559
+		},
+		"rotation": {
+			"x": 100,
+			"y": 100,
+			"angle": 0.0
+		},
+		"image": {
+			"name": "feed-dogFoodBag.png"
+		},
+		"onPress": {
+			"script": "./scripts/feed-cat"
+		},
+		"timers": {
+			"unrotateFood": {
+				"running": false,
+				"time": 0,
+				"max": 300,
+				"script": "./scripts/unrotate-food"
+			}
+		}
+	}],
+	"clean-ear": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"bg-color": "#0d2342",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Clean your ear!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/clean-ear-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "ear.png"
+		}
+	}, {
+		"id": 5,
+		"name": "q-tip",
+		"failure": true,
+		"position": {
+			"x": 500,
+			"y": 800
+		},
+		"size": {
+			"width": 2000,
+			"height": 400
+		},
+		"slideX": {
+			"min": -300,
+			"max": 700,
+			"onLeft": "./scripts/q-tip-left"
+		},
+		"image": {
+			"name": "q-tip.png",
+			"destinationY": 50,
+			"destinationWidth": 1895,
+			"destinationHeight": 317
+		}
+	}, {
+		"id": 6,
+		"name": "ear-lobe",
+		"position": {
+			"x": 0,
+			"y": 650,
+			"z": 10
+		},
+		"size": {
+			"width": 179,
+			"height": 599
+		},
+		"image": {
+			"name": "ear-lobe.png"
+		}
+	}],
+	"brush-teeth": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"bg-color": "#dbc495",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Brush your teeth!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/brush-teeth-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 560
+		},
+		"image": {
+			"name": "brush-teeth-1.png"
+		}
+	}, {
+		"id": 5,
+		"name": "toothbrush",
+		"failure": true,
+		"position": {
+			"x": 500,
+			"y": 1300
+		},
+		"size": {
+			"width": 2000,
+			"height": 400
+		},
+		"slideX": {
+			"min": 100,
+			"max": 950,
+			"onLeft": "./scripts/tooth-brush-left"
+		},
+		"image": {
+			"name": "tooth-brush.png",
+			"destinationY": 50,
+			"destinationWidth": 1502,
+			"destinationHeight": 331
+		}
+	}],
+	"bacon": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"bg-color": "#dbc495",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Fry bacon!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/bacon-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "Bacon-background-07.png"
+		}
+	}, {
+		"id": 5,
+		"name": "pan",
+		"failure": true,
+		"position": {
+			"x": 450,
+			"y": 500
+		},
+		"size": {
+			"width": 1211,
+			"height": 746
+		},
+		"slideX": {
+			"min": 30,
+			"max": 450,
+			"onLeft": "./scripts/bacon-left"
+		},
+		"image": {
+			"name": "bacon-pan1.png"
+		}
+	}],
+	"make-bed": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Make bed!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 5000,
+				"script": "./scripts/make-bed-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "makeBed-background.png"
+		}
+	}, {
+		"id": 5,
+		"name": "pillow1",
+		"position": {
+			"x": 800,
+			"y": 1500,
+			"z": 2
+		},
+		"size": {
+			"width": 358,
+			"height": 244
+		},
+		"image": {
+			"name": "makeBed-pillow.png"
+		},
+		"drag": {},
+		"failure": true,
+		"snapToCenter": {
+			"target": 6,
+			"distance": 200,
+			"onSnap": "./scripts/stop-dragging"
+		}
+	}, {
+		"id": 6,
+		"name": "pillow1-target",
+		"position": {
+			"x": 350,
+			"y": 660
+		},
+		"size": {
+			"width": 358,
+			"height": 244
+		}
+	}, {
+		"id": 7,
+		"name": "pillow2",
+		"position": {
+			"x": 100,
+			"y": 1500,
+			"z": 2
+		},
+		"size": {
+			"width": 406,
+			"height": 335
+		},
+		"image": {
+			"name": "makeBed-pillow2.png"
+		},
+		"drag": {},
+		"failure": true,
+		"snapToCenter": {
+			"target": 8,
+			"distance": 200,
+			"onSnap": "./scripts/stop-dragging"
+		}
+	}, {
+		"id": 8,
+		"name": "pillow2-target",
+		"position": {
+			"x": 800,
+			"y": 600
+		},
+		"size": {
+			"width": 406,
+			"height": 335
+		}
+	}, {
+		"id": 9,
+		"name": "blanket",
+		"position": {
+			"x": 100,
+			"y": 1500,
+			"z": 1
+		},
+		"size": {
+			"width": 1104,
+			"height": 766
+		},
+		"image": {
+			"name": "makeBed-blanket.png"
+		},
+		"drag": {},
+		"failure": true,
+		"snapToCenter": {
+			"target": 10,
+			"distance": 200,
+			"onSnap": "./scripts/stop-dragging"
+		}
+	}, {
+		"id": 10,
+		"name": "blanket-target",
+		"position": {
+			"x": 210,
+			"y": 860
+		},
+		"size": {
+			"width": 1104,
+			"height": 766
+		}
+	}],
+	"alarm": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Snooze!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 10000,
+				"script": "./scripts/alarm-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "alarm-clock.png"
+		}
+	}, {
+		"id": 5,
+		"name": "clock",
+		"position": {
+			"x": 200,
+			"y": 700
+		},
+		"image": {
+			"name": "alarm-clock-clock.png"
+		}
+	}, {
+		"id": 6,
+		"name": "button1",
+		"button": true,
+		"position": {
+			"x": 270,
+			"y": 750
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-purple-f2.png",
+			"sourceWidth": 305
+		}
+	}, {
+		"id": 7,
+		"name": "button2",
+		"button": true,
+		"position": {
+			"x": 621,
+			"y": 750
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-red-f2.png",
+			"sourceWidth": 305
+		}
+	}, {
+		"id": 8,
+		"name": "button3",
+		"button": true,
+		"position": {
+			"x": 972,
+			"y": 750
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-blue-f2.png",
+			"sourceWidth": 305
+		}
+	}, {
+		"id": 9,
+		"name": "button4",
+		"button": true,
+		"position": {
+			"x": 270,
+			"y": 959
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-green-f2.png",
+			"sourceWidth": 305
+		}
+	}, {
+		"id": 10,
+		"name": "button5",
+		"button": true,
+		"position": {
+			"x": 621,
+			"y": 959
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-olive-f2.png",
+			"sourceWidth": 305
+		}
+	}, {
+		"id": 11,
+		"name": "button6",
+		"button": true,
+		"position": {
+			"x": 972,
+			"y": 959
+		},
+		"size": {
+			"width": 305,
+			"height": 190
+		},
+		"onPress": {
+			"script": "./scripts/wrong-button"
+		},
+		"onRelease": {
+			"script": "./scripts/reset-button"
+		},
+		"image": {
+			"name": "alarm-clock-button-yellow-f2.png",
+			"sourceWidth": 305
+		}
+	}],
+	"slippers": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true,
+		"matchCenterX": {
+			"id": 1
+		},
+		"matchCenterY": {
+			"id": 1
+		}
+	}, {
+		"id": 1,
+		"name": "viewport",
+		"viewPort": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 1532,
+			"height": 2048
+		}
+	}, {
+		"id": 2,
+		"name": "game-timer",
+		"intro": "Slipper up!",
+		"position": {
+			"x": 300,
+			"y": 800
+		},
+		"timers": {
+			"intro": {
+				"running": true,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/start-game"
+			},
+			"game": {
+				"running": false,
+				"time": 0,
+				"max": 3000,
+				"script": "./scripts/slippers-outro"
+			},
+			"outro": {
+				"running": false,
+				"time": 0,
+				"max": 1000,
+				"script": "./scripts/next-scene"
+			}
+		}
+	}, {
+		"id": 4,
+		"name": "bg",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"image": {
+			"name": "slippers-bg.png"
+		}
+	}, {
+		"id": 5,
+		"name": "knees",
+		"position": {
+			"x": -100,
+			"y": 550,
+			"z": 4
+		},
+
+		"image": {
+			"name": "slippers-knees.png"
+		}
+	}, {
+		"id": 6,
+		"name": "left-foot",
+		"position": {
+			"x": 280,
+			"y": 550,
+			"z": 2
+		},
+		"image": {
+			"name": "slippers-left-foot.png"
+		}
+	}, {
+		"id": 7,
+		"name": "right-foot",
+		"position": {
+			"x": 550,
+			"y": 1600,
+			"z": 2
+		},
+		"image": {
+			"name": "slippers-right-foot.png"
+		}
+	}, {
+		"id": 8,
+		"name": "left-slippper-bottom",
+		"position": {
+			"x": 700,
+			"y": 300,
+			"z": 1
+		},
+		"size": {
+			"width": 638,
+			"height": 357
+		},
+		"drag": {},
+		"failure": true,
+		"snapToCenter": {
+			"target": 10,
+			"distance": 200,
+			"onSnap": "./scripts/stop-dragging-slippers"
+		},
+		"image": {
+			"name": "slippers-left-slipper-bottom.png"
+		}
+	}, {
+		"id": 9,
+		"name": "left-slippper-top",
+		"position": {
+			"x": 700,
+			"y": 300,
+			"z": 5
+		},
+		"match": {
+			"id": 8,
+			"offsetX": 350,
+			"offsetY": -65
+		},
+		"image": {
+			"name": "slippers-left-slipper-top.png"
+		}
+	}, {
+		"id": 10,
+		"name": "left-slippper-target",
+		"position": {
+			"x": 250,
+			"y": 530
+		},
+		"size": {
+			"width": 638,
+			"height": 357
+		}
+	}, {
+		"id": 11,
+		"name": "right-slippper-bottom",
+		"position": {
+			"x": 700,
+			"y": 700,
+			"z": 1
+		},
+		"size": {
+			"width": 640,
+			"height": 323
+		},
+		"drag": {},
+		"failure": true,
+		"snapToCenter": {
+			"target": 13,
+			"distance": 200,
+			"onSnap": "./scripts/stop-dragging-slippers"
+		},
+		"image": {
+			"name": "slippers-right-slipper-bottom.png"
+		}
+	}, {
+		"id": 12,
+		"name": "right-slippper-top",
+		"position": {
+			"x": 700,
+			"y": 300,
+			"z": 5
+		},
+		"match": {
+			"id": 11,
+			"offsetX": 470,
+			"offsetY": -90
+		},
+		"image": {
+			"name": "slippers-right-slipper-top.png"
+		}
+	}, {
+		"id": 13,
+		"name": "right-slippper-target",
+		"position": {
+			"x": 500,
+			"y": 1600
+		},
+		"size": {
+			"width": 640,
+			"height": 323
+		}
+	}]
 }

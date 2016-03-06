@@ -7,9 +7,10 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		var curtain = 7;
 
 		var curtianTimers = game.entities.get(curtain, "timers");
-		if (game.input.buttonPressed("action") && !curtianTimers.pull.running) {
+		if (game.inputs.buttonPressed("action") && !curtianTimers.pull.running) {
 			curtianTimers.pull.running = true;
-			game.sounds.play("curtain-pull");
+			game.sounds.play("Morning_Ritual_Rooster.mp3");
+			game.sounds.play("Morning_Ritual_Blind.mp3");
 		}
 
 		if (curtianTimers.pull.running) {
@@ -19,7 +20,7 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 			}
 			if (time > 1500) {
 				game.entities.set(1, "bg-color", "#7dcadb");
-				game.sounds.play("music4", true);
+				game.sounds.play("Morning_Ritual_Music4.mp3", true);
 			}
 		}
 

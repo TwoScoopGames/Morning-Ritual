@@ -12,9 +12,9 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 
 		var position = game.entities.get(entity, "position");
 		var size = game.entities.get(entity, "size");
-		var mx = game.input.mouse.x + cameraPosition.x;
-		var my = game.input.mouse.y + cameraPosition.y;
-		if (game.input.buttonReleased("action")
+		var mx = game.inputs.mouse.x + cameraPosition.x;
+		var my = game.inputs.mouse.y + cameraPosition.y;
+		if (game.inputs.buttonReleased("action")
 				|| mx < position.x
 				|| mx >= position.x + size.width
 				|| my < position.y

@@ -1,11 +1,11 @@
 "use strict";
 
 var sounds = [
-	"radio-track-1",
-	"radio-track-2",
-	"radio-track-3",
-	"radio-track-4",
-	"radio-track-5"
+	"radio-track-1.mp3",
+	"radio-track-2.mp3",
+	"radio-track-3.mp3",
+	"radio-track-4.mp3",
+	"radio-track-5.mp3"
 ];
 
 var currentSounds = [];
@@ -27,11 +27,11 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	var image = game.entities.get(entity, "image");
 	image.sourceX = 305;
 
-	game.sounds.stop("alarm");
-	game.sounds.stop("radio-track-1");
-	game.sounds.stop("radio-track-2");
-	game.sounds.stop("radio-track-3");
-	game.sounds.stop("radio-track-4");
-	game.sounds.stop("radio-track-5");
+	game.sounds.stop("Morning_Ritual_Alarm.mp3");
+	game.sounds.stop("radio-track-1.mp3");
+	game.sounds.stop("radio-track-2.mp3");
+	game.sounds.stop("radio-track-3.mp3");
+	game.sounds.stop("radio-track-4.mp3");
+	game.sounds.stop("radio-track-5.mp3");
 	game.sounds.play(getNextSound(), true);
 };

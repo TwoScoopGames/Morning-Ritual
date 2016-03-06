@@ -36,10 +36,8 @@
     "name": "ear-wax",
     "position": {
       "x": 0,
-      "y": 1200
-    },
-    "zindex": {
-      "zindex": 5
+      "y": 1200,
+	  "z": 3
     },
     "image": {
       "name": "earwax.png"
@@ -71,10 +69,8 @@
     "name": "bed-cat-1",
     "position": {
       "x": 825,
-      "y": 1118
-    },
-    "zindex": {
-      "zindex": 3
+      "y": 1118,
+	  "z": 3
     },
     "size": {
       "width": 408,
@@ -92,10 +88,8 @@
     "name": "bed-cat-2",
     "position": {
       "x": 990,
-      "y": 818
-    },
-    "zindex": {
-      "zindex": 3
+      "y": 818,
+	  "z": 3
     },
     "size": {
       "width": 218,
@@ -113,10 +107,8 @@
     "name": "bed-cat-3",
     "position": {
       "x": 408,
-      "y": 760
-    },
-    "zindex": {
-      "zindex": 3
+      "y": 760,
+	  "z": 3
     },
     "size": {
       "width": 226,
@@ -134,10 +126,8 @@
     "name": "bg",
     "position": {
       "x": 0,
-      "y": 0
-    },
-    "zindex": {
-      "zindex": 4
+      "y": 0,
+	  "z": 4
     },
     "image": {
       "name": "makeBed-background-hole.png"
@@ -147,10 +137,8 @@
     "name": "eyes",
     "position": {
       "x": 650,
-      "y": 1200
-    },
-    "zindex": {
-      "zindex": 5
+      "y": 1200,
+	  "z": 5
     },
     "image": {
       "name": "eyes.png"
@@ -160,10 +148,8 @@
     "name": "pupils",
     "position": {
       "x": 720,
-      "y": 1240
-    },
-    "zindex": {
-      "zindex": 5
+      "y": 1240,
+	  "z": 5
     },
     "image": {
       "name": "pupils.png"
@@ -177,10 +163,8 @@
     },
     "size": {
       "width": 246,
-      "height": 88
-    },
-    "zindex": {
-      "zindex": 6
+      "height": 88,
+	  "z": 6
     },
     "animation": {
       "time": 0,
@@ -199,17 +183,15 @@
     },
     "size": {
       "width": 156,
-      "height": 249
-    },
-    "zindex":{
-      "zindex": 5
+      "height": 249,
+	  "z": 5
     },
     "animation": {
       "time": 0,
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "life"
+      "name": "life-f3.png"
     }
   },
   "life2": {
@@ -231,7 +213,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "life"
+      "name": "life-f3.png"
     }
   },
   "life3": {
@@ -253,7 +235,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "life"
+      "name": "life-f3.png"
     }
   },
   "life4": {
@@ -275,7 +257,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "life"
+      "name": "life-f3.png"
     }
   },
   "alarm-melted": {

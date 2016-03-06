@@ -1,13 +1,15 @@
 "use strict";
 
 var games = [
-	"alarm",
-	"bacon",
-	"brush-teeth",
-	"clean-ear",
-	"crack-eggs",
-	"feed-cat",
-	"make-bed",
+	// "alarm",
+	// "bacon",
+	// "brush-teeth",
+	// "clean-ear",
+	// "crack-eggs",
+	// "feed-cat",
+	// "feed-dog",
+	// "feed-grandma",
+	// "make-bed",
 	"slippers"
 ];
 

@@ -12,8 +12,8 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 
 		var position = game.entities.get(entity, "position");
 		var size = game.entities.get(entity, "size");
-		var mx = game.input.mouse.x + cameraPosition.x;
-		var my = game.input.mouse.y + cameraPosition.y;
+		var mx = game.inputs.mouse.x + cameraPosition.x;
+		var my = game.inputs.mouse.y + cameraPosition.y;
 		var slideX = game.entities.get(entity, "slideX");
 		var prevX = position.x;
 
@@ -22,9 +22,9 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 				&& my >= position.y
 				&& my < position.y + size.height;
 
-		if (game.input.buttonPressed("action") && inside) {
+		if (game.inputs.buttonPressed("action") && inside) {
 			slideX.offsetX = position.x - mx;
-		} else if (game.input.button("action") && slideX.offsetX !== undefined) {
+		} else if (game.inputs.button("action") && slideX.offsetX !== undefined) {
 			position.x = mx + slideX.offsetX;
 			if (position.x < slideX.min) {
 				position.x = slideX.min;
@@ -42,7 +42,7 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 					onRight(entity, game);
 				}
 			}
-		} else if (game.input.buttonReleased("action")) {
+		} else if (game.inputs.buttonReleased("action")) {
 			delete slideX.offsetX;
 		}
 	}, "slide-x");

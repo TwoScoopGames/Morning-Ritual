@@ -23,6 +23,12 @@
  "feed-cat": {
 	 "onEnter": "./scripts/add-lives"
  },
+ "feed-dog": {
+	 "onEnter": "./scripts/add-lives"
+ },
+ "feed-grandma": {
+	 "onEnter": "./scripts/add-lives"
+ },
  "make-bed": {
 	 "onEnter": "./scripts/add-lives"
  },
