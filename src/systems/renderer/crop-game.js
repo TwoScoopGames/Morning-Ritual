@@ -5,34 +5,17 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		var viewportPosition = game.entities.get(entity, "position");
 		var viewportSize = game.entities.get(entity, "size");
 
-		var cameraPosition = game.entities.get(0, "position");
-		var cameraSize = game.entities.get(0, "size");
+		var oldCompositeOperation = context.globalCompositeOperation;
+		context.globalCompositeOperation = "destination-in";
 
 		context.fillStyle = "black";
 		context.fillRect(
-			cameraPosition.x,
-			cameraPosition.y,
-			cameraSize.width,
-			viewportPosition.y - cameraPosition.y
-		);
-		context.fillRect(
-			viewportPosition.x + viewportSize.width,
-			cameraPosition.y,
-			cameraSize.width - (viewportPosition.x + viewportSize.width),
-			cameraSize.height
-		);
-		context.fillRect(
-			cameraPosition.x,
-			viewportPosition.y + viewportSize.height,
-			cameraSize.width,
-			cameraSize.height - (viewportPosition.y + viewportSize.height)
-		);
-		context.fillRect(
-			cameraPosition.x,
-			cameraPosition.y,
-			viewportPosition.x - cameraPosition.x,
-			cameraSize.height
+			viewportPosition.x,
+			viewportPosition.y,
+			viewportSize.width,
+			viewportSize.height
 		);
 
+		context.globalCompositeOperation = oldCompositeOperation;
 	}, "viewPort");
 };
